@@ -1,0 +1,8 @@
+permalink: /:title
+exclude: ['Gemfile.lock', 'Gemfile', 'config.rb', 'README.md']
+production: false
+paginate: 3
+
+url: 'http://stereobooster.github.com'
+author_name: 'stereobooster'
+author_email: 'stereobooster@gmail.com'
