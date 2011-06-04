@@ -111,7 +111,7 @@
   .active a {
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    font-weight: bold;
+    font: bold;
   }
 
   li a {
@@ -125,7 +125,6 @@
   text-indent: -9999px;
   width:40px;
 }
-
 
 footer {
   height:30px;
