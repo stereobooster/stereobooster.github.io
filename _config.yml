@@ -22,9 +22,9 @@ site_name: Method67
   # url: "/#main"
 
 apis:
-  google_analytics_uid: 
-  addthis_uid: 
-  disqus_shortname:
+  google_analytics_uid: UA-23778458-1
+  addthis_uid: ra-4f032ec338067ecc
+  disqus_shortname: method67
 
 maruku:
   use_tex:    false
