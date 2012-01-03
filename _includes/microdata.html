@@ -1,0 +1,35 @@
+<meta property="og:url" content="{{ site.url }}{{ page.url | canonical_url }}">
+<meta property="og:title" content="{% if page.title %} {{ page.title }} | {% endif %}{{ site.theme.site_name }}">
+{% if page.description %}<meta property="og:description" content="{{ page.description }}">{% endif %}
+<meta property="og:site_name" content="{{ site.theme.site_name }}">
+{% if page.img %}<meta property="og:image" content="{{ page.img }}">{% endif %}
+{% if page.meta.video %}
+	<div itemscope  itemtype="http://schema.org/VideoObject">
+		<meta itemprop="image" content="{{ page.img }}" />
+		<meta itemprop="thumbnail" content="{{ page.title }}" />
+		<meta itemprop="name" content="{{ page.title }}" />
+		<meta itemprop="caption" content="{{ page.title }}" />
+		<meta itemprop="description" content="{{ page.description }}" />
+		<meta itemprop="height" content="{{page.meta.video.height}} px" />
+		<meta itemprop="width" content="{{page.meta.video.width}} px" />
+	</div>
+	<meta property="og:type" content="video">
+	<meta property="og:video" content="{{page.meta.video.url}}">
+	<meta property="og:video:type" content="application/x-shockwave-flash">
+	<meta property="og:video:width" content="{{page.meta.video.width}}">
+	<meta property="og:video:height" content="{{page.meta.video.height}}">
+{% else %}
+	<meta property="og:type" content="website" />
+	{% if page.img %}
+		<div itemscope itemtype="http://schema.org/MobileSoftwareApplication">
+		    <meta itemprop="name" content="{{ page.title }}" />
+		    <meta itemprop="image" content="{{ page.img }}" />
+		    <div itemprop="author" content="{{ site.author }}">
+		    </div>
+		</div>
+	{% else %}
+	{% endif %}
+</div>
+{% endif %}
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:locale:alternate" content="en_US" />

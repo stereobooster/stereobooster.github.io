@@ -1,0 +1,47 @@
+{% if site.apis.google_analytics_uid %}
+<script>
+var _gaq=[
+['_addOrganic','bing.com','q'],
+['_addOrganic','images.yandex.ru','text'],
+['_addOrganic','blogs.yandex.ru','text'],
+['_addOrganic','video.yandex.ru','text'],
+['_addOrganic','mail.ru','q'],
+['_addOrganic','go.mail.ru','q'],
+['_addOrganic','rambler.ru','words'],
+['_addOrganic','nova.rambler.ru','query'],
+['_addOrganic','nova.rambler.ru','words'],
+['_addOrganic','gogo.ru','q'],
+['_addOrganic','nigma.ru','s'],
+['_addOrganic','search.qip.ru','query'],
+['_addOrganic','webalta.ru','q'],
+['_addOrganic','sm.aport.ru','r'],
+['_addOrganic','meta.ua','q'],
+['_addOrganic','search.bigmir.net','z'],
+['_addOrganic','search.i.ua','q'],
+['_addOrganic','index.online.ua','q'],
+['_addOrganic','web20.a.ua','query'],
+['_addOrganic','search.ukr.net','search_query'],
+['_addOrganic','search.com.ua','q'],
+['_addOrganic','search.ua','q'],
+['_addOrganic','poisk.ru','text'],
+['_addOrganic','go.km.ru','sq'],
+['_addOrganic','liveinternet.ru','ask'],
+['_addOrganic','gde.ru','keywords'],
+['_addOrganic','affiliates.quintura.com','request'],
+['_addOrganic','akavita.by','z'],
+['_addOrganic','search.tut.by','query'],
+['_addOrganic','all.by','query'],
+['_addOrganic','ukr.net','search_query'],
+['_addOrganic','quintura.ru','request'],
+['_addOrganic','qip.ru','query'],
+['_addOrganic','metabot.ru','st'],
+['_addOrganic','i.ua','q'],
+['_addOrganic','a.ua','s'],
+['_setAccount','{{ site.apis.google_analytics_uid }}'],
+['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+window.onerror=function(m,u,l){_gaq.push(["_trackEvent","error",m,u,l]);};
+</script>
+{% endif %}

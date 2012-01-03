@@ -1,0 +1,11 @@
+{% if site.apis.addthis_uid %}
+{% if site.apis.google_analytics_uid %}
+<script>
+var addthis_config = {
+    data_ga_property: '{{ site.apis.google_analytics_uid }}',
+    data_ga_social: true
+};
+</script>
+{% endif %}
+<script src="http://s7.addthis.com/js/250/addthis_widget.js#pubid={{ site.apis.addthis_uid }}" async></script>
+{% endif %}

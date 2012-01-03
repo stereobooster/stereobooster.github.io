@@ -1,0 +1,6 @@
+{{ if site.related_posts }}
+    <h3>Вас так же может заинтересовать</h3>
+    {% for post in site.related_posts %}
+        {% include post_summary.html %}
+    {% endfor %}
+{{ endif }}

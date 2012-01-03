@@ -1,10 +1,16 @@
 ---
-layout: default
-title: stereobooster
+layout: container-app
+title: Главная
 ---
-<h2>Posts</h2>
+
+<span class="label important">TODO</span> Главаная страница пока не готова
+
+<h2>Список постов</h2>
 <ul>
-{% for post in paginator.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for node in site.posts %}
+    {% if page.url == node.url %}
+    <li><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% else %}
+    <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
 {% endfor %}
-</ul>

@@ -1,0 +1,347 @@
+---
+layout: default
+title: Микроформаты
+description: Как микроформаты влияют на поисковую выдачу Google и Яндекс. Какие микроданные использует Facebook.
+keyword: Opengraph, Микроформаты, Microformats, Google, Яндекс, Facebook
+tags: [seo, smo]
+breadcrumbs:
+  url: /microformats/
+  name: ✪ Практическое руководство по микроформатам
+---
+
+<div class="container">
+  <div class="content">
+  <br><br><br><br>
+
+    <div id="google">
+      <div class="page-header">
+        <h1>Поисковая выдача Google</h1>
+      </div>
+      
+      <p>Google поддерживает три формата микроданных: <a href="http://www.w3.org/TR/microdata/">Microdata</a>, <a href="http://microformats.org/">Microformats</a>, <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> (Resource Description Framework in attributes).</p>
+      <p>Microdata&nbsp;&mdash; является частью текущего драфта html5 и&nbsp;является предпочтительной схемой разметки. Схемы для Microdata можно найти на&nbsp;<a href="http://schema.org/">schema.org</a> и на <a href="http://data-vocabulary.org/">data-vocabulary.org</a> (schema.org предпочтительней). Schema.org – это стандарт семантической разметки данных в сети, объявленный поисковыми системами Google, Bing и Yahoo! летом 2011 года.</p>
+
+      <p>☂ <b>Интсрумент для тестирования</b>: <a href="http://www.google.com/webmasters/tools/richsnippets">Rich Snippets Testing Tool</a></p>
+      
+      
+      <h2>Базовый</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/basic.png">
+        </div>
+        <div class="span6">
+          <pre class="prettyprint linenums">
+&lt;title&gt;Название&lt;/title&gt;
+&lt;meta name="description" content="Описание" /&gt;</pre>
+        <p><span class="label warning">уточнить</span> кажется не все utf-8 символы развешены в title</p>
+        </div>
+      </div>
+
+      <h2>Дополнительные ссылки</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/sublinks.png">
+        </div>
+        <div class="span6">
+          <p>Google сам определяет насколько мне известно</p>
+        </div>
+      </div>
+
+      <h2>Дополнительные ссылки расширенный вариант</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/sublinks-2.png">
+        </div>
+        <div class="span6">
+          <p>Google сам определяет насколько мне известно</p>
+        </div>
+      </div>
+
+      <h2>Локальный поиск</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/local-search-rating.png">
+        </div>
+        <div class="span6">
+          <p>Добавить в <a href="http://www.google.com/local/add/">Google Places for Business</a></p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=146861">Webmaster Tools Help</a></p>
+        </div>
+      </div>
+
+      <h2>Поиск новостей</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-news.png">
+        </div>
+        <div class="span6">
+          <span class="label warning">информацию надо проверить</span>
+          <p>Фото &mdash; первое изображение в странице</p>
+          <p>Дата &mdash; ...</p>
+        </div>
+      </div>
+
+      <h2>Хлебные крошки</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-breadcrumbs.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, RDFa</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=185417">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://data-vocabulary.org/Breadcrumb">data-vocabulary.org</a></p>
+        </div>
+      </div>
+
+      <h2>Дата публикации</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-date.png">
+        </div>
+        <div class="span6">
+          <span class="label warning">Уточнить</span>
+          <p>Форматы: Sitemap</p>
+          <p>Дата получается из <a href="http://www.sitemaps.org/">sitemap</a></p>
+        </div>
+      </div>
+
+      <h2>Список</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-list.png">
+        </div>
+        <div class="span6">
+        <blockquote>If a search result consists mostly of a structured list, like a table or series of bullets, we’ll show a list of three relevant rows or items underneath the result in a bulleted format. The snippet will also show an approximate count of the total number of rows or items on the page.<small><a href="http://insidesearch.blogspot.com/2011/08/new-snippets-for-list-pages.html">Google Inside Search</a></small></blockquote>
+        <p><span class="label notice">интересно</span> Текст обрезан после двоеточия для транскрипции слова be <span class="label">:]</span></p>
+        </div>
+      </div>
+
+      <h2>Поиск по вопросам (форумы, QA сервисы)</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-answer.png">
+        </div>
+        <div class="span6">
+          <span class="label important">TODO</span>
+        </div>
+      </div>
+
+      <h2>Поиск по вопросам (форумы, QA сервисы) №2</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-answer-2.png">
+        </div>
+        <div class="span6">
+          <span class="label important">TODO</span>
+        </div>
+      </div>
+
+      <h2>Программные приложения</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-application.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=1645432">Webmaster Tools Help</a>. <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1645527">Поддерживаемые форматы</a></p>          
+          <p>Схема на <a href="http://schema.org/mobilesoftwareapplication">schema.org</a> <span class="label warning">404 на момент написания статьи</span></p>
+        </div>
+      </div>
+
+      <h2>Автор</h2>
+      <div class="row">
+        <div class="span10">
+          <br>
+          <img src="/microformats/g/richsnippet-author.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata</p>
+          <p>Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.mattcutts.com%2Fblog%2Fthoughts-on-google-instant%2F">Rich Snippets Testing Tool</a></p>
+        </div>
+      </div>
+
+      <h2>События (Мероприятия)</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-event.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, Microformats, RDFa</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=164506">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://schema.org/Event">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Кино</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-movie.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata</p>
+          <p>Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1375666%2F">Rich Snippets Testing Tool</a></p>
+          <p>Схема на <a href="http://schema.org/Movie">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Музыка</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-music.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1623047">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://schema.org/Musicgroup">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Человек</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-people.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, Microformats, RDFa</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=146646">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://schema.org/Person">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Товар</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-product.png"><br>
+          <img src="/microformats/g/richsnippet-product-offer.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, Microformats</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=146750">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://schema.org/Product">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Рецепт</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-recipe.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, Microformats, RDFa</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=173379">Webmaster Tools Help</a></p>
+          <p>Схема на <a href="http://schema.org/Recipe">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Отзыв</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-review.png"><br>
+          <img src="/microformats/g/richsnippet-rating.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata, Microformats, RDFa</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=146645">Webmaster Tools Help</a>, <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=172705">Webmaster Tools Help</a></p>
+          <pre>&lt;span class="pricerange"&gt;&lt;/span&gt;</pre>
+        </div>
+      </div>
+
+      <h2>Телесериал</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-tv-series.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Microdata</p>
+          <p>Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0813715%2F">Rich Snippets Testing Tool</a></p>
+          <p>Схема на <a href="http://schema.org/TVSeries">schema.org</a></p>
+        </div>
+      </div>
+
+      <h2>Видео</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-video.png">
+        </div>
+        <div class="span6">
+          <p>Форматы: Sitemap, Microdata (не поддерживается Google)</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=80472">Webmaster Tools Help</a></p>          
+        </div>
+      </div>
+
+    </div>
+
+    <div id="yandex">
+      <div class="page-header">
+        <h1>Поисковая выдача Яндекс</h1>
+      </div>
+      <p>Яндекс поддерживает следующие форматы микроданных: <a href="http://help.yandex.ru/webmaster/?id=1122752">Microdata (schema.org)</a>, <a href="http://help.yandex.ru/webmaster/?id=1111670">Microformats</a>, <a href="http://help.yandex.ru/webmaster/?id=1111995">YandexXML</a>, <a href="http://ogp.me/">OpenGraph</a>.</p>
+      <p>Яндекс с осени 2011 года понимает формат Schema.org и поддерживает его в некоторых партнерских программах.</p>
+      <p>☂ <b>Интсрумент для тестирования</b>: <a href="http://webmaster.yandex.ua/microtest.xml">Валидатор микроразметки</a></p>
+      
+      <h2>Адресс организации</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/y/richsnippet-address.png">
+        </div>
+        <div class="span6">
+          <p>Добавить в <a href="http://sprav.yandex.ru/">Яндекс.Справочник</a></p>
+          <p><a href="http://help.yandex.ru/webmaster/?id=1123208">schema.org</a></p>
+          <p><a href="http://help.yandex.ru/webmaster/?id=1111573">hCard</a></p>
+        </div>
+      </div>
+    
+      <h2>Хлебные крошки</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/y/richsnippet-breadcrumbs.png">
+        </div>
+        <div class="span6">
+          <span class="label important">TODO</span>
+        </div>
+      </div>
+    
+      <h2>Дополнительные ссылки</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/y/richsnippet-sublink.png">
+        </div>
+        <div class="span6">
+          <span class="label important">TODO</span>
+        </div>
+      </div>
+
+      <h2>Товар</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/y/richsnippet-product.png">
+        </div>
+        <div class="span6">
+          <span class="label important">TODO</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="facebook">
+      <div class="page-header">
+        <h1>Микроданные используемые в Facebook <small>Opengraph</small></h1>
+      </div>
+      <p>Facebook поддерживает: <a href="http://ogp.me/">OpenGraph</a>.</p>
+      <p>Список типов данных на <a href="http://developers.facebook.com/docs/opengraph/#types">developers facebook</a>.</p>
+      <p>☂ <b>Интсрумент для тестирования</b>: <a href="http://developers.facebook.com/tools/debug">Facebook Object Debugger</a></p>
+    </div>
+
+    <div id="vkontakte">
+      <div class="page-header">
+        <h1>Микроданные используемые в Вконтакте</h1>
+      </div>
+      <p>Вконткте не поддерживает микроформаты. Но при публикации ссылки, берется первое изображение на странице (аналог og:image). Так что можно использовать следующий код:
+      <pre>&lt;body&gt;
+&lt;img style="display:none" src="..." &gt;
+...</pre>
+Не используйте изображения с полупрозрачностью (будет черный фон).
+</p>
+    </div>
+
+  </div>
+  {% include footer.html %}
+</div> <!-- /container -->

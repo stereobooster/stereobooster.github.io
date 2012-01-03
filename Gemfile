@@ -1,11 +1,9 @@
 source :rubygems
 
-gem "jekyll"
-
-gem "compass"
-gem "haml"
-gem "html5-boilerplate"
-
-gem "guard-compass"
-
-gem "juicer"
+gem 'jekyll'
+# gem "jekyll", :git => "https://github.com/chitsaou/jekyll.git", :branch => "redcarpet-2.0"
+# gem 'glynn'
+# gem 'redcarpet'
+# gem 'ultraviolet'
+# gem 'jammit'
+# gem 'mechanize'
