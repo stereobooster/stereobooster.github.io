@@ -19,11 +19,16 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+        .addthis_toolbox {float: right; margin-top:12px;}
+        .vkimg {display:none;}
+    </style>
 </head>
 <body>
     {% include header.html %}
     {{ content }}
     
+    {% comment %}
     <!-- Le javascript -->
     <!--<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -33,6 +38,7 @@
     <script src="/js/bootstrap-dropdown.js"></script>
     <script src="/js/bootstrap-twipsy.js"></script>-->
     <script src="/js/bootstrap-scrollspy.js"></script>
+    {% endcomment %}
     {% include ga.html %}
     {% include addthis.html %}
     {% include chrome_frame.html %}
