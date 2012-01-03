@@ -40,16 +40,7 @@ breadcrumbs:
       <h2>Дополнительные ссылки</h2>
       <div class="row">
         <div class="span10">
-          <img src="/microformats/g/sublinks.png">
-        </div>
-        <div class="span6">
-          <p>Google сам определяет насколько мне известно</p>
-        </div>
-      </div>
-
-      <h2>Дополнительные ссылки расширенный вариант</h2>
-      <div class="row">
-        <div class="span10">
+          <img src="/microformats/g/sublinks.png"><br>
           <img src="/microformats/g/sublinks-2.png">
         </div>
         <div class="span6">
@@ -263,10 +254,23 @@ breadcrumbs:
           <img src="/microformats/g/richsnippet-video.png">
         </div>
         <div class="span6">
-          <p>Форматы: Sitemap, Microdata (не поддерживается Google)</p>
-          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=80472">Webmaster Tools Help</a></p>          
+          <p>Форматы: Sitemap, Facebook Share, RDFa, Microdata (не поддерживается Google)</p>
+          <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=80472">Webmaster Tools Help</a></p>
+          <p><a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=162163">Facebook Share и RDFa</a></p>
         </div>
       </div>
+
+      <h2>Карты</h2>
+      <div class="row">
+        <div class="span10">
+          <img src="/microformats/g/richsnippet-map.png">
+        </div>
+        <div class="span6">
+          <span class="label warning">уточнить</span>
+          <pre>&lt;p class="address"&gt;147 Route 70 Ste 8 Toms River, NJ 8755&lt;/p&gt;</pre>
+        </div>
+      </div>
+    </div>
 
     </div>
 
@@ -325,16 +329,45 @@ breadcrumbs:
       <div class="page-header">
         <h1>Микроданные используемые в Facebook <small>Opengraph</small></h1>
       </div>
-      <p>Facebook поддерживает: <a href="http://ogp.me/">OpenGraph</a>.</p>
+      <p>Facebook поддерживает: <a href="http://ogp.me/">OpenGraph</a>, Facebook Share.</p>
       <p>Список типов данных на <a href="http://developers.facebook.com/docs/opengraph/#types">developers facebook</a>.</p>
       <p>☂ <b>Интсрумент для тестирования</b>: <a href="http://developers.facebook.com/tools/debug">Facebook Object Debugger</a></p>
+      <p><span class="label warning">deprecated</span> устаревшие методы (Facebook Share)<br>
+Веб страница:
+<pre>
+meta name="title" content=""
+meta name="description" content=""
+link rel="image_src" href="″ *
+</pre>
+<i>* &mdash; если не указано, то берется первое изображение на странице</i>
+<br><br>
+Видео:
+<pre>
+meta name="title" content="video_title"
+meta name="description" content="video_description"
+link rel="image_src" href="video_screenshot_image_src url"
+link rel="video_src" href="video_src url"
+meta name="video_height" content="video_height"
+meta name="video_width" content="video_width"
+meta name="video_type" content="application/x-shockwave-flash"
+</pre>
+Аудио:
+<pre>
+meta name="title" content="page_title"
+meta name="description" content="audio_description"
+link rel="image_src" href="audio_image_src url (eg. album art)"
+link rel="audio_src" href="audio_src url"
+meta name="audio_type" content="Content-Type header field"
+</pre>
+      </p>
+
     </div>
 
     <div id="vkontakte">
       <div class="page-header">
         <h1>Микроданные используемые в Вконтакте</h1>
       </div>
-      <p>Вконткте не поддерживает микроформаты. Но при публикации ссылки, берется первое изображение на странице (аналог og:image). Так что можно использовать следующий код:
+      <p>Вконткте не поддерживает микроформаты. Но при публикации ссылки, берется первое изображение на странице (аналог og:image или rel="image_src"). Так что можно использовать следующий код:
       <pre>&lt;body&gt;
 &lt;img style="display:none" src="..." &gt;
 ...</pre>
@@ -344,7 +377,7 @@ breadcrumbs:
 
   <div id="comments">
       <div class="page-header">
-        <h1>✎ Комментарии</h1>
+        <h1>✎ Вопросы и предложения</h1>
       </div>
       {% include disqus.html %}
   </div>
