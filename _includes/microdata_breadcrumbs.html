@@ -13,7 +13,7 @@
   </span>
   {% else %}
   <span typeof="v:Breadcrumb">
-    <a href="{{site.breadcrumbs.url}}" rel="v:url" property="v:title">
+    <a href="{% if site.breadcrumbs.url %}{{site.breadcrumbs.url}}{% else %}{{ site.url }}{{ page.url | canonical_url }}{% endif %}" rel="v:url" property="v:title">
     {{site.breadcrumbs.name}}
     </a>
   </span>

@@ -1,4 +1,15 @@
 ---
-layout: container-app
+layout: default
 ---
-{{ content }}
+<div class="container">
+  <div class="content">
+    {{content}}
+    <div id="comments">
+        <div class="page-header">
+          <h1>✎ Вопросы и предложения</h1>
+        </div>
+        {% include disqus.html %}
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
