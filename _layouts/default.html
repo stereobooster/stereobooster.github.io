@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.site_name }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.site_name }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | canonical_url }}" /> 
@@ -27,7 +27,6 @@
 <body>
     {% include header.html %}
     {{ content }}
-    
     {% comment %}
     <!-- Le javascript -->
     <!--<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>-->
