@@ -104,6 +104,7 @@ breadcrumbs:
         <div class="span6">
           <p>&nbsp;&nbsp;&nbsp;Форматы: Microdata</p>
           <p>&nbsp;&nbsp;&nbsp;Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.mattcutts.com%2Fblog%2Fthoughts-on-google-instant%2F">Rich Snippets Testing Tool</a></p>
+          <p>&nbsp;&nbsp;&nbsp;Размер изображения 50px&times;50px</p>
         </div>
       </div>
 
@@ -116,6 +117,7 @@ breadcrumbs:
           <p>Форматы: Microdata, Microformats (hCard), RDFa</p>
           <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=146646">Webmaster Tools Help</a></p>
           <p>Схема на <a href="http://schema.org/Person">schema.org</a></p>
+          <p>Размер изображения 62px&times;62px</p>
         </div>
       </div>
 
@@ -147,12 +149,14 @@ breadcrumbs:
       <h2>Программные приложения</h2>
       <div class="row">
         <div class="span10">
-          <img src="/microformats/g/richsnippet-application.png">
+          <img src="/microformats/g/richsnippet-application.png"><br>
+          <img src="/microformats/g/richsnippet-application-2.png">
         </div>
         <div class="span6">
           <p>Форматы: Microdata</p>
           <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=1645432">Webmaster Tools Help</a>. <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1645527">Поддерживаемые форматы</a></p>          
           <p>Схема на <a href="http://schema.org/mobilesoftwareapplication">schema.org</a> <span class="label warning">404 на момент написания статьи</span></p>
+          <p>Размер изображения 62px&times;62px</p>
         </div>
       </div>
 
@@ -178,6 +182,7 @@ breadcrumbs:
           <p>Форматы: Microdata, Microformats (hRecipe), RDFa</p>
           <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=173379">Webmaster Tools Help</a></p>
           <p>Схема на <a href="http://schema.org/Recipe">schema.org</a></p>
+          <p>Размер изображения 62px&times;62px</p>
         </div>
       </div>
 
@@ -203,6 +208,7 @@ breadcrumbs:
           <p>Форматы: Microdata</p>
           <p>Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt1375666%2F">Rich Snippets Testing Tool</a></p>
           <p>Схема на <a href="http://schema.org/Movie">schema.org</a></p>
+          <p>Размер изображения 62px&times;62px</p>
         </div>
       </div>
 
@@ -215,6 +221,7 @@ breadcrumbs:
           <p>Форматы: Microdata</p>
           <p>Пример на <a href="http://www.google.com/webmasters/tools/richsnippets?url=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0813715%2F">Rich Snippets Testing Tool</a></p>
           <p>Схема на <a href="http://schema.org/TVSeries">schema.org</a></p>
+          <p>Размер изображения 62px&times;62px</p>
         </div>
       </div>
 
@@ -227,6 +234,7 @@ breadcrumbs:
           <p>Форматы: Sitemap, Facebook Share, RDFa, Microdata (не поддерживается Google)</p>
           <p>Описание на <a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=80472">Webmaster Tools Help</a></p>
           <p><a href="http://support.google.com/webmasters/bin/answer.py?hl=ru&answer=162163">Facebook Share и RDFa</a></p>
+           <p>Размер изображения 115px&times;65px</p>
         </div>
       </div>
 
@@ -257,7 +265,8 @@ breadcrumbs:
       <div class="row">
         <div class="span10">
           <img src="/microformats/g/sublinks.png"><br>
-          <img src="/microformats/g/sublinks-2.png">
+          <img src="/microformats/g/sublinks-2.png"><br>
+          <img src="/microformats/g/richsnippet-link-inside.png">
         </div>
         <div class="span6">
           <p>Google сам определяет насколько мне известно</p>
@@ -393,10 +402,14 @@ meta name="audio_type" content="Content-Type header field"
       <div class="page-header">
         <h1>Микроданные используемые в Вконтакте</h1>
       </div>
-      <p>Вконткте не поддерживает микроформаты. Но при публикации ссылки, берется первое изображение на странице (аналог <code>og:image</code> или <code>rel="image_src"</code>). Так что можно использовать следующий код:
+      <p>
+      <span class="label warning">уточнить</span> 
+      <pre>meta property="og:image" content="..."</pre>
+      или
       <pre>&lt;body&gt;
 &lt;img style="display:none" src="..." &gt;
 ...</pre>
+      Размеры картинки 50px&times;50px<br>
       Не используйте изображения с полупрозрачностью (будет черный фон).
       </p>
     </div>
