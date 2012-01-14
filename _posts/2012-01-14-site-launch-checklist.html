@@ -1,0 +1,134 @@
+---
+layout: post
+title: Чеклист перед запуском сайта
+description: Подбор ресурсов с интересными идеями для сайта
+keyword: 
+tags:
+breadcrumbs:
+  name: ▲▲▼▼◀▶◀▶ⒷⒶ
+---
+
+<br><br><br>
+<div>
+      <div class="page-header">
+        <h1>{{page.title}}</h1>
+      </div>
+      <p>★ Источники: <a href="http://lite.launchlist.net/">launchlist</a>, 
+      <a href="http://speckyboy.com/wp-content/uploads/2011/11/infograhic_check_site_large.jpg">infograhic check site large</a></p>
+
+      <h2>SEO</h2>
+      <p>★ Источники: <a href="http://топэксперт.рф/">топэксперт.рф</a>, <a href="http://www.seomoz.org/beginners-guide-to-seo">beginners guide to seo</a></p>
+      <p>☂ Интсрументы: Яндекс.Вебмастер, Google Webmaster, Google Analytics, Яндекс.Метрика </p>
+      <ul>
+            <li>Каждая страница имеет уникальный и осмысленый title и description</li>
+            <li>У всех картинок есть alt</li>
+            <li>Убрать дубликаты: 301 redirect и rel=canonical<ul>
+                  <li>www.example.com vs example.com</li>
+                  <li>example.com/article vs example.com/article<b>/</b></li>
+                  <li>example.com/article/ vs example.com/article/?utm_source=rss</li>
+            </ul>
+            </li>
+            <li>sitemap.xml</li>
+            <li>robots.txt (можно пустой файл)</li>
+            <li>Добавить разметку для <a href="/microformats/">richsnippet</a><ul>
+                  <li>на странице "контакты" hCard или аналогичное</li>
+                  <li>разметку для breadcrumbs</li>
+                  <li>и т.п.</li>
+            </ul>
+            </li>
+      </ul>
+
+      <h2>SMO</h2>
+      <ul>
+            <li>На сайте есть ссылки на ваши профили и группы социальных сетях</li>
+            <li>У вас есть share кнопки:
+            <ul>
+                  <li><a href="http://api.yandex.ru/share/">Яндекс поделиться</a>. Не забудьте включить интеграцию с Яндекс.Метрикой</li>
+                  <li><a href="http://addthis.com/">Addthis</a>. Не забудьте включить интеграцию с Google Analytics</li>
+            </ul>
+            </li>
+            <li>На сайт можно залогинится или оставить комментарий с помощью социальных сетей (Disqus)</li>
+      </ul>
+
+      <h2>Посадочные страницы</h2>
+      <p>★ Источники: <a href="http://www.kongru.ru/blog/best-posts-of-2011/">конгру</a>, <a href="http://unbounce.com/101-landing-page-optimization-tips">101 landing page optimization tips</a>, <a href="http://visualwebsiteoptimizer.com/split-testing-blog/landing-page-best-practices/">landing page best practices</a>, <a href="http://www.1stwebdesigner.com/design/landing-pages-101/">landing pages 101</a></p>
+
+      <h2>Аналитика</h2>
+      <ul>
+            <li>Google analytics</li>
+            <li>Яндекс.Метрика</li>
+      </ul>
+
+
+      <h2>Usability и навигация</h2>
+
+      <h2>Мобильный контент</h2>
+      <p>QR коды</p>
+   
+      <h2>Локальный бизнес</h2>
+         
+      <h2>Дизайн</h2>
+      <ul>
+            <li>Favicon</li>
+            <li>Apple touch icon</li>
+            <li>Facebook og:image</li>
+            <li>404 и 500 страницы ошибок</li>
+      </ul>
+
+      <h2>Контент</h2>
+      <ul>
+            <li>Проверить орфографию и пункутуацию</li>
+            <li><a href="http://typograf.ru/">Типогрфировать тексты</a></li>
+            <li>Добавить изображения или видео к статьям</li>
+            <li>Есть страница контакты или "о нас"</li>
+      </ul>
+
+      <h2>Клиентская оптимизация</h2>
+      <p>★ Источники: <a href="http://developer.yahoo.com/performance/rules.html">правила от Yahoo!</a>, <a href="http://code.google.com/intl/ru/speed/page-speed/docs/rules_intro.html">Правила от Google</a>, <a href="http://webo.in/articles/">Статьи от Webo</a>, http://www.vcarrer.com/2011/02/about-repaint-and-reflow-in-javascript.html http://habrahabr.ru/blogs/client_side_optimization/</p>
+      <p>☂ Интсрументы: <a href="http://developer.yahoo.com/yslow/">Yslow</a>, <a href="http://code.google.com/intl/ru-RU/speed/page-speed/">Page speed</a>, <a href="https://developers.google.com/pagespeed/">Page speed online</a>, <a href="http://www.webpagetest.org/compare">webpagetest</a>, <a href="http://code.google.com/intl/ru/speed/pss/docs/setup.html">Page speed service</a>, <a href="http://gtmetrix.com">gtmetrix</a>
+      </p>
+      <ul>
+            <li>Кеширование с датами в далеком будущем</li>
+            <li>Все изображения оптимизированы (smush.it, optipng, jpegtran)</li>
+            <li>Все css в верху, все js внизу</li>
+            <li>js и css сжаты (<a href="https://github.com/mishoo/UglifyJS">UglifyJS</a>, closure-compiler, yuicompressor)</li>
+            <li>css sprites</li>
+            <li>js CDN</li>
+      </ul>
+
+      <h2>Сервер</h2>
+      <ul>
+            <li>Бэкапы настроены и работают</li>
+            <li>Отчеты об ошибках собираются</li>
+            <li>Мониторинг ресурсов (Munin)</li>
+            <li>Внешний мониторинг (Pingdom)</li>
+            <li>Ловятся все email приходящие на домен</li>
+            <li>Убедитесь, что сайт сам востанавливает работу после сбоя питания</li>
+      </ul>
+
+      <h2>Разработка</h2>
+      <ul>
+            <li>Деплоймент автоматизирован и запускается одной кнопкой:<ul>
+                  <li>Сжимаются js и css</li>
+                  <li>Перегенерируются css sprites</li>
+                  <li>Обновляется cache busting параметры</li>
+                  <li>Запускаются автоматические тесты</li>
+            </ul>
+            </li>
+            <li>Автомтическое тестирование (acceptance testing, headles browser)</li>
+            <li>Кроссбраузерное тестирование
+            {% comment %}
+http://coding.smashingmagazine.com/2010/06/04/cross-browser-testing-a-detailed-review-of-tools-and-services/
+http://speckyboy.com/2011/06/05/useful-tools-to-check-cross-browser-compatibility-issues/
+http://www.webdesignerdepot.com/2011/10/8-popular-online-apps-to-test-the-mobile-version-of-your-site/
+http://www.smashingmagazine.com/2011/08/07/a-dozen-cross-browser-testing-tools/
+http://cmslist.ru/articles/website_test_tools/
+http://quirktools.com/screenfly/
+            {% endcomment %}
+            </li>
+
+            <li>Нагрузочное тестирование</li>
+            <li>Тестирование безопасности</li>
+            <li>Ручное финальное тестирование, желательно не разработчиком</li>
+      </ul>
+</div>
