@@ -6,12 +6,19 @@
           <ul class="nav">
             <li><a href="/"></a></li>
           </ul>
+          <!-- <form class="pull-left" action="/search/">
+            <input type="text" placeholder="поиск ↵" name="q">
+          </form> -->
+          {% if page.yandex %}
+          <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir"></div>
+          {% else %}
           <div class="addthis_toolbox addthis_default_style">
+              <a class="addthis_button_vk"></a>
               <a class="addthis_button_facebook"></a>
               <a class="addthis_button_twitter"></a>
-              <a class="addthis_button_vk"></a>
               <a class="addthis_counter addthis_bubble_style"></a>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>

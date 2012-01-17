@@ -25,6 +25,7 @@ apis:
   google_analytics_uid: UA-23778458-1
   addthis_uid: ra-4f032ec338067ecc
   disqus_shortname: method67
+  yandex_metrika_uid: 11889496
 
 maruku:
   use_tex:    false
