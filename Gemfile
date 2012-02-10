@@ -1,9 +1,8 @@
 source :rubygems
 
-gem 'jekyll'
-# gem "jekyll", :git => "https://github.com/chitsaou/jekyll.git", :branch => "redcarpet-2.0"
-# gem 'glynn'
-# gem 'redcarpet'
-# gem 'ultraviolet'
-# gem 'jammit'
-# gem 'mechanize'
+gem "jekyll"
+gem "rdiscount"
+
+# gem "jekyll", :git => "git://github.com/stereobooster/jekyll.git"
+# gem "jammit"
+# gem "mechanize"
