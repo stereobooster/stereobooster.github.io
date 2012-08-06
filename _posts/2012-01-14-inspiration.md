@@ -74,6 +74,7 @@ breadcrumbs:
 
 ## Ideas
 
+ - http://uxidea.tumblr.com/
  - http://www.awwwards.com/
  - http://habrahabr.ru/post/140676/
  - http://www.viget.com/inspire/39-ridiculous-things-to-do-with-css3-box-shadows/

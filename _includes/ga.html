@@ -42,9 +42,25 @@ var _gaq=[
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 s.parentNode.insertBefore(g,s)}(document,'script'));
-(function(w){var u,l=function(h){var a=w.document.createElement('a');a.href=h;return a};
-w.onerror=function(m,f,r){var h=l(f).hostname;
-_gaq.push(['_trackEvent',(w.location.hostname==h || h==u || h==''?'':'external ')+'error',m,f+' LINE: '+r,u,u,true])}
-}(window))
+(function(a){var b,c=function(b){var c=a.document.createElement("a");return c.href=b,c};a.onerror=function(d,e,f){var g=c(e).hostname;_gaq.push(["_trackEvent",(g==a.location.hostname||g==b||g==""?"":"external ")+"error",d,e+" LINE: "+f,b,b,!0])}})(window);
+
+$(function(){
+  var isDuplicateScrollEvent,
+    undefined,
+    scrollTimeStart = new Date,
+    $window = $(window),
+    $document = $(document),
+    scrollPercent;
+  $window.scroll(function(){
+    scrollPercent = Math.round(100*($window.height() + $window.scrollTop())/$document.height());
+      if (scrollPercent > 90 && !isDuplicateScrollEvent) { 
+        isDuplicateScrollEvent = 1;
+        _gaq.push(['_trackEvent', 'scrool', 
+          'Window: ' + $window.height() + 'px; Document: ' + $document.height() + 'px; Time: ' + Math.round((new Date - scrollTimeStart )/1000,1) + 's',
+          undefined, undefined, true
+        ]);
+      }
+    }); 
+});
 </script>
 {% endif %}
