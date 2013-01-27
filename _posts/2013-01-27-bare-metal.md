@@ -29,9 +29,12 @@ breadcrumbs:
 
 ## Offtopic
  - [WEBSOCKET DEMO RESULTS V2](http://eric.themoritzfamily.com/websocket-demo-results-v2.html)
+ - [parallella](http://www.parallella.org/introduction/)
+ - [erlang-embedded](https://github.com/esl/erlang-embedded). Erlang on Raspberry Pi. [video](http://www.youtube.com/watch?v=HjbNyA1ASkE)
  - [eLua](http://www.eluaproject.net/overview)
  - [mruby](https://github.com/mruby/mruby)
  - [Beyond Ruby: Mirah, Reia, Rite](http://www.igvita.com/2010/12/14/beyond-ruby-mirah-reia-rite/)
  - [Concurrency with Actors, Goroutines & Ruby](http://www.igvita.com/2010/12/02/concurrency-with-actors-goroutines-ruby/)
  - [MMIX](http://en.wikipedia.org/wiki/MMIX)
  - [hirefire](https://github.com/meskyanichi/hirefire)
+ - [aws-autoscaling](https://github.com/Netflix/aws-autoscaling/wiki)

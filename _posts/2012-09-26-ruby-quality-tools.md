@@ -30,6 +30,8 @@ Pelusa is a static analysis tool and framework to inspect your code style and no
 ### [laser](https://github.com/michaeledgar/laser)
 Static analysis and style linter for Ruby code.
 
+### [cane](https://github.com/square/cane)
+
 ## Performance Tools
 ### [ruby-prof](https://github.com/rdp/ruby-prof)
 ruby-prof is a fast code profiler for Ruby. ruby-prof requires Ruby 1.8.7 or 1.9.2 and higher. Windows prebuilt binary gem is available.
