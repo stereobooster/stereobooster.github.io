@@ -56,18 +56,3 @@ breadcrumbs:
 ## SEO
  - http://топэксперт.рф/
  - http://www.seomoz.org/beginners-guide-to-seo
-
-<!-- 
-## Functional programming style / paradigms / concepts
- - Promises, Futures, ControlFlow
- - Actor Model, Go coroutines
-
-## Scheme
- - http://programming-musings.org/2007/01/31/a-scheme-bookshelf/
- - http://repl.it/languages/Scheme
-
-## Clojure
- - http://sicpinclojure.com/
- - http://juliangamble.com/blog/2012/07/13/amazing-lisp-books-living-again-in-clojure/
- - http://juliangamble.com/blog/2012/07/20/the-little-schemer-in-clojure/
- -->
