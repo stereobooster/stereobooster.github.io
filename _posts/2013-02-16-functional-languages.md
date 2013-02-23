@@ -19,12 +19,23 @@ breadcrumbs:
  - [Structure and Interpretation of Computer Programs adapted for the Clojure programming language](http://sicpinclojure.com/)
  - [amazing lisp books living again in clojure](http://juliangamble.com/blog/2012/07/13/amazing-lisp-books-living-again-in-clojure/)
  - [the little schemer in clojure](http://juliangamble.com/blog/2012/07/20/the-little-schemer-in-clojure/)
- - [clojure vs scala](http://www.bestinclass.dk/index.clj/2010/04/clojure-scala-similarities-twins-separated-at-birth.html)
  - [clojure vs haskell syntax](http://honza.ca/2013/02/haskell-vs-clojure-syntax)
+ - [clojure vs scala](http://www.bestinclass.dk/index.clj/2010/04/clojure-scala-similarities-twins-separated-at-birth.html)
+ - [next jvm language](http://www.infoq.com/research/next-jvm-language)
  - [What Sucks about Clojure and Why You'll Love It Anyway](http://www.infoq.com/presentations/What-Sucks-about-Clojure-and-Why-You-ll-Love-It-Anyway)
+ - [lighttable](http://www.lighttable.com/)
+ - [Clojure on Ruby](http://rouge.io/)
+
+## ClojureScript
+ - [JS vs ClojureScript](http://himera.herokuapp.com/synonym.html)
 
 ## Erlang
+ - [learnyousomeerlang](http://learnyousomeerlang.com/content)
  - [erlang repl](http://ferd.ca/repl-a-bit-more-and-less-than-that.html)
+ - [Elixir](http://www.infoq.com/presentations/Elixir-Erlang-VM)
+ - [the excitement of elixir](http://devintorr.es/blog/2013/01/22/the-excitement-of-elixir/)
+ - [goerlang](https://github.com/goerlang/node)
 
 ## Other
  - [concurrency with actors goroutines ruby](http://www.igvita.com/2010/12/02/concurrency-with-actors-goroutines-ruby/)
+ - [μLithp - a Lisp in 27 lines of Ruby](http://fogus.github.com/ulithp/)
