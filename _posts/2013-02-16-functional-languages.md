@@ -36,6 +36,19 @@ breadcrumbs:
  - [the excitement of elixir](http://devintorr.es/blog/2013/01/22/the-excitement-of-elixir/)
  - [goerlang](https://github.com/goerlang/node)
 
+## Functional JS
+ - http://www.crockford.com/javascript/little.html
+ - http://osteele.com/sources/javascript/functional/
+ - http://blog.fogus.me/2013/03/20/fun-js/
+ - http://habrahabr.ru/post/173447/
+ - https://github.com/azer/declarative-js
+ - http://stevelosh.com/blog/2013/03/list-out-of-lambda/
+ - http://www.slideshare.net/TrevorBurnham/sane-async-patterns/
+ - http://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/
+ - http://blog.jcoglan.com/2011/03/05/translation-from-haskell-to-javascript-of-selected-portions-of-the-best-introduction-to-monads-ive-ever-read/
+ 
 ## Other
  - [concurrency with actors goroutines ruby](http://www.igvita.com/2010/12/02/concurrency-with-actors-goroutines-ruby/)
  - [μLithp - a Lisp in 27 lines of Ruby](http://fogus.github.com/ulithp/)
+ - [Scheme in as little Ruby and as much Scheme as possible](https://github.com/jcoglan/heist)
+ 
