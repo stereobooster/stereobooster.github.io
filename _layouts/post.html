@@ -35,6 +35,14 @@ layout: default
 {% endif %}
 
 <!-- Disqus -->
+{% if site.github %}
+<div class="comments">
+  {% include github_edit.html %}
+</div>
+{% endif %}
+
+
+<!-- Disqus -->
 {% if site.theme.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}

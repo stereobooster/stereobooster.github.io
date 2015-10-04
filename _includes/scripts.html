@@ -1,0 +1,39 @@
+<!-- Google Analytics -->
+{% if site.theme.google_analytics %}
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '{{ site.theme.google_analytics }}', 'auto');
+ga('send', 'pageview');
+// Track basic JavaScript errors
+window.addEventListener('error', function(e) {
+  ga('send', 'event', 'JavaScript Error', e.message || message, {
+    location: e.filename + ':  ' + e.lineno,
+    revision: {{ site.github.build_revision }},
+  });
+})
+</script>
+{% endif %}
+
+<!-- KaTeX -->
+{% if site.theme.katex %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+<script src="{{ "/js/katex_init.js" | prepend: site.baseurl }}"></script>
+{% endif %}
+
+<script>
+  var gon = {
+    repository_url: "{{ site.github.repository_url }}",
+    owner_name:  "{{ site.github.owner_name }}",
+    repository_name:  "{{ site.github.repository_name }}",
+  };
+</script>
+<!-- TODO: add jQuery and lodash -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+<script src="{{ "/js/revisions_init.js" | prepend: site.baseurl }}"></script>
+

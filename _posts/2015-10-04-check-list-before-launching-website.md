@@ -11,14 +11,16 @@ Work in progress: still adding items to the list. Each item should contain: sens
  - Application error monitoring. Sentry or similar. Setup monitoring for both frontend and backend. Store name of the server, hash of commit or build id, user id
  - Setup cath all mail account
  - Monitor 404 errors. Google analytics, server logs or similar
+ - Smart 404 errors
 
 ## Frontend
  - Visitors monitoring. Google analytics or similar
- - Decide and explicitly document targeted browsers, OSes, screen resolutions
  - Test with pagespeed
+ - Decide and explicitly document targeted browsers, OSes, screen resolutions
+ - Test in targeted browsers
 
 ## Backend
- - Setup automatic database backups: hourly (saving up to 48 latest entries), daily (14), weekly (8), monthly. Test recovery process
+ - Setup automatic database and files backups: hourly (saving up to 48 latest entries), daily (14), weekly (8), monthly. Test recovery process
  - Make script to restore db backups to developers machine with sensitive data being removed
  - Setup log collection and storing. Papertrail or similar
  - Application monitoring: time spent, CPU, bottlenecks, error rates. NewRelic or similar
@@ -42,12 +44,13 @@ Work in progress: still adding items to the list. Each item should contain: sens
  - Check stylistics. glvrd.ru or similar
 
 ## SEO & SMO
- - Setup unique domain: www vs no-www
- - Check all pages have title and description
+ - Setup unique domain: www vs no-www. Use redirects for propper domain name
+ - Check all pages have title, description and canonical url
  - Add RDF markup if appropriate
  - Add Open Graph markup
  - Add Twitter Cards markup
- - Add sitemap
+ - Add sitemap and submit it to search engines
+ - Add your site to Google Webmasters, Yandex Webmaster etc.
 
 ## Design
  - Error pages
