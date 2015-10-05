@@ -2,6 +2,9 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://stereobooster.github.io" # the base hostname & protocol for your site
 
+exclude:
+  - 'node_modules'
+
 github:
   repository_url: "https://github.com/stereobooster/stereobooster.github.io"
   repository_name: "stereobooster.github.io"
