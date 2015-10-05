@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Next time somebody add useless code to the codebase
-tag: "1 picture is better than 1000 words"
+tags:
+  - 1 picture is better than 1000 words
 ---
 
 ![Missing missy](/assets/missing_missy7.jpg)

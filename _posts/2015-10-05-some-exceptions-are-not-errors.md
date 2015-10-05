@@ -2,7 +2,8 @@
 layout: post
 title: Some exceptions are not errors
 feature-img: "img/sample_feature_img_3.png"
-tag: "make things clear"
+tags:
+  - make things clear
 ---
 
 **TL;DR** If exceptions used for flow control, they should not be treated as errors.

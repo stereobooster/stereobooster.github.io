@@ -2,7 +2,8 @@
 layout: post
 title: Constants stored in database
 feature-img: "img/sample_feature_img_3.png"
-tag: "rule of thumb"
+tags:
+  - rule of thumb
 ---
 
 **TL;DR** Should I store this entity in DB or not? If you can not add record to DB (or delete record from DB) without changing code, you should not store those entities in DB.
