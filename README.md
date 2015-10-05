@@ -9,3 +9,4 @@ Ideas for blog and posts
  - Add discuss and GA accounts
  - Support for tags, "time to read"
  - List of good technical blogs
+ - Special type posts: quote, idea, image
