@@ -4,6 +4,10 @@ url: "http://stereobooster.github.io" # the base hostname & protocol for your si
 
 exclude:
   - 'node_modules'
+  - 'bin'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
 
 github:
   repository_url: "https://github.com/stereobooster/stereobooster.github.io"
@@ -82,3 +86,11 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+
+# gems:
+  # - jekyll-compose
+  # - jekyll-mentions
+  # - jemoji
+  # - jekyll-redirect-from
+  # - jekyll-sitemap
+  # - jekyll-feed
