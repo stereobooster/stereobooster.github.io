@@ -11,13 +11,21 @@ jekyll
 
 Ideas for blog and posts
 
- - script to crete ne posts
+ - UX for tables number alignment
+ - sitaution with ovp-interanl and understanding on what happens
+ - special tags like stackowerflow (explanation, icon). IDEA: tagbase, API, description (wiki), icon, hashtags
+ - UI/UX database (usecases, pros/cons, existing solutions)
+ - embeded code snippets that can run code
+ - JS streams
+ - en/us typograf
+ - en/us glvrd.ru
+
  - Use gulp instead of Jekyll
  - Change avatar and design a little bit
  - Add discuss and GA accounts
  - Add "time to read" to posts
  - List of good technical blogs
- - Special type posts: quote, idea, image
+ - Special type posts: quote (fit text), idea, image, link(links)
  - Add command line spell checker that understands html/markdown
   - https://github.com/shama/grunt-spell
   - gulp-spellcheck
@@ -25,7 +33,10 @@ Ideas for blog and posts
  - Add memo to myself: difference between then and than (and zen)
  - Add dates to the commits. Use moment-js
  - Cool blogging platforms to take inspiration: https://svbtle.com/about, https://medium.com/about/medium-connects-the-people-stories-and-ideas-that-matter-to-you-495655fb8459
+ https://medium.com/@brianleroux/es6-modules-amd-and-commonjs-c1acefbe6fc0
+ paragraph numbers http://www.artlebedev.ru/kovodstvo/sections/177/
+
  - turbolinks http://carlosbecker.com/posts/turbolinks/
  - http://www.appelsiini.net/projects/lazyload
  - fastclick
- - local jquery fallback
+ - local jquery fallback (china russia greatwall, crimea block, DNS attack)

@@ -6,9 +6,9 @@ tags:
   - make things clear
 ---
 
-**TL;DR** If exceptions used for flow control, they should not be treated as errors.
+**TL;DR** If exceptions used for control flow, they should not be treated as errors.
 
-For example it makes no sense to report exception, which you use for control flow to exception logging service (like Sentry).
+For example it makes no sense to report exceptions (which you use for control flow) to logging service, like Sentry.
 
 Typical example:
 
