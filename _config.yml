@@ -81,11 +81,26 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   auto_ids: true
+#   footnote_nr:    1
+#   entity_output:  as_char
+#   toc_levels:     1..6
+#   smart_quotes:   lsquo,rsquo,ldquo,rdquo
+#   enable_coderay: false
+
+markdown: redcarpet
+redcarpet:
+  extensions: ['tables', 'autolink', 'strikethrough', 'space_after_headers', 'with_toc_data', 'fenced_code_blocks']
+
+highlighter: pygments
+# pygments_options: ['lineanchors']
 
 # gems:
   # - jekyll-compose

@@ -9,6 +9,10 @@ jekyll
 
 ## TODO
 
+ - support linenumbers for GFM code block (e.g. three backticks)
+ - fix line numbers when scrolling horizontally
+ - anchors to headers
+
 Ideas for blog and posts
 
  - UX for tables number alignment
