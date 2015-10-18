@@ -1,5 +1,15 @@
 // pygments-css (https://github.com/richleland/pygments-css)
 
+
+code {
+  font-size: 0.75rem;
+  padding: 1px 2px;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  background-color: #fefefe;
+  color: #EC4040;
+}
+
 .highlight {
 
   .lineno {
@@ -28,7 +38,7 @@
   }
 
   pre code {
-    word-wrap: normal;
+    color: #383838;
     display: block;
     font-size: 0.75em;
     margin: 0;
@@ -38,8 +48,6 @@
   pre {
     white-space: pre;
     overflow-x: auto;
-    border: solid 1px #d9d9d9;
-    background: #fff;
     padding: 0;
     line-height: 1em;
     margin-bottom: 1em;
