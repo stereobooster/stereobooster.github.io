@@ -12,7 +12,7 @@ ga('send', 'pageview');
 window.addEventListener('error', function(e) {
   ga('send', 'event', 'JavaScript Error', e.message || message, {
     location: e.filename + ':  ' + e.lineno,
-    revision: {{ site.github.build_revision }},
+    revision: "{{ site.github.build_revision }}",
   });
 })
 </script>

@@ -7,7 +7,7 @@ bundle
 jekyll
 ```
 
-## TODO
+## TODO:
 
  - support linenumbers for GFM code block (e.g. three backticks)
  - fix line numbers when scrolling horizontally
@@ -16,7 +16,7 @@ jekyll
 Ideas for blog and posts
 
  - UX for tables number alignment
- - sitaution with ovp-interanl and understanding on what happens
+ - sitaution with internal and understanding on what happens
  - special tags like stackowerflow (explanation, icon). IDEA: tagbase, API, description (wiki), icon, hashtags
  - UI/UX database (usecases, pros/cons, existing solutions)
  - embeded code snippets that can run code
@@ -26,7 +26,7 @@ Ideas for blog and posts
 
  - Use gulp instead of Jekyll
  - Change avatar and design a little bit
- - Add discuss and GA accounts
+ - Add discuss account
  - Add "time to read" to posts
  - List of good technical blogs
  - Special type posts: quote (fit text), idea, image, link(links)

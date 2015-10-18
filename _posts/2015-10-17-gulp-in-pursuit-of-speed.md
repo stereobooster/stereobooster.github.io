@@ -25,7 +25,7 @@ gulp.task('html', () => {
 
 ### Optimize images, SVGs
 
-TODO: try [imageoptim](https://www.npmjs.com/package/gulp-imageoptim), because it [rocks](https://jamiemason.github.io/ImageOptim-CLI/). [svgmin](https://github.com/ben-eb/gulp-svgmin) for SVGs
+**TODO**: try [imageoptim](https://www.npmjs.com/package/gulp-imageoptim), because it [rocks](https://jamiemason.github.io/ImageOptim-CLI/). [svgmin](https://github.com/ben-eb/gulp-svgmin) for SVGs
 
 {% highlight javascript linenos %}
 gulp.task('images', () => {
