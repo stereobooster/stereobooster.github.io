@@ -16,9 +16,11 @@ Lets imagine how ideal js templating engine can be. Will make check list.
  - Layout inheritance
  - Support partials (not in global namespace)
  - Async
+ - Informative compilation errors. Maybe Source Maps
 
 ### Existing solutions
 
+ - https://github.com/tj/consolidate.js
  - http://www.dustjs.com/
  - http://ectjs.com/
  - http://mozilla.github.io/nunjucks/
