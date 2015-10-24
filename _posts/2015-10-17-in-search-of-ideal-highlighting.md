@@ -78,3 +78,15 @@ I want line numbers to be fixed, so when you scroll they do not hide. Something 
 
 Add some twist with [good theme](https://github.com/richleland/pygments-css)
 
+### Even better
+
+Ability to edit/fork code snippets. Ability to execute code.
+
+ - [jsbin](http://jsbin.com/help/how-can-i-embed-jsbin)
+ - [codepen](http://blog.codepen.io/documentation/features/embedded-pens/)
+ - [ace](https://ace.c9.io/#nav=embedding)
+ - [repl.it](https://repl.it/languages)
+ - [babeljs](https://babeljs.io/repl/)
+ - [Try Clojure](http://www.tryclj.com/)
+ - [Try Haskell](https://tryhaskell.org)
+

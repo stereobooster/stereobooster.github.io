@@ -18,3 +18,8 @@ Words can have more then one meaning. It is good idea idea to explain what exact
 ### Hints (by Yandex Market)
 In case of complex forms, it is good idea to explain what field mean, what possible values can be to help user to make desicion.
 ![Yandex hint](/assets/ui-yandex-hint.png)
+
+### Search everywhere
+Make thing more accessible by allowing search for every long item list. It is more easy with browser because you can use `Cmd + F`
+![Mac settigns](/assets/ui-mac-settings.png)
+

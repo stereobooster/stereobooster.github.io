@@ -23,9 +23,12 @@ gulp.task('html', () => {
 });
 {% endhighlight %}
 
+[css-minification-benchmark](http://goalsmashers.github.io/css-minification-benchmark/)
+
+
 ### Optimize images, SVGs
 
-**TODO**: try [imageoptim](https://www.npmjs.com/package/gulp-imageoptim), because it [rocks](https://jamiemason.github.io/ImageOptim-CLI/). [svgmin](https://github.com/ben-eb/gulp-svgmin) for SVGs
+**TODO**: try [imageoptim](https://www.npmjs.com/package/gulp-imageoptim), because it [rocks](https://jamiemason.github.io/ImageOptim-CLI/). [svgmin](https://github.com/ben-eb/gulp-svgmin) for SVGs. Generate webp [gulp-webp](https://github.com/sindresorhus/gulp-webp)
 
 {% highlight javascript linenos %}
 gulp.task('images', () => {
@@ -112,7 +115,9 @@ gulp.task('deploy', ['build'], function () {
 
 ### Custom jQuery and sass/js frameworks builds
 
-Do not include them all. Choose only what you need
+Do not include them all. Choose only what you need.
+
+ - [jquery-builder](http://projects.jga.me/jquery-builder/)
 
 ## Not Gulp
 
@@ -120,4 +125,5 @@ Do not include them all. Choose only what you need
 
 ### Custom build of font for icons
 
-See [master icon fonts]({% post_url 2015-10-17-master-icon-fonts %})
+See [master icon fonts]({% post_url 2015-10-17-master-icon-fonts %}). [gulp-iconfont](https://www.npmjs.com/package/gulp-iconfont)
+
