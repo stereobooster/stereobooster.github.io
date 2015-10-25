@@ -90,3 +90,8 @@ Ability to edit/fork code snippets. Ability to execute code.
  - [Try Clojure](http://www.tryclj.com/)
  - [Try Haskell](https://tryhaskell.org)
 
+### Other GFM stuff
+
+[Exceptional post on Redcarpet and GFM](https://george-hawkins.github.io/basic-gfm-jekyll/redcarpet-extensions.html) by George Hawkins.
+
+[Github styles replica](https://github.com/sindresorhus/github-markdown-css)

@@ -79,3 +79,22 @@ header {
   }
 }
 
+.anchor {
+  display: inline-block;
+  padding-right: 0.2rem;
+  margin-left: -1.2rem;
+  font-size: 1rem;
+  vertical-align: middle;
+
+  .fa {
+    visibility: hidden;
+  }
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+  .fa {
+    visibility: visible;
+  }
+}
+
+

@@ -1,0 +1,28 @@
+<script>
+(function () {
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "anchor";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link octicon-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        // header.appendChild(anchorForId(header.id));
+        header.insertBefore(anchorForId(header.id), header.firstChild);
+      }
+    }
+  };
+
+  var markdownBody = document.getElementsByClassName('post-content')[0];
+  if (!markdownBody) return;
+  for (var level = 1; level <= 6; level++) {
+    linkifyAnchors(level, markdownBody);
+  }
+}());
+</script>
