@@ -56,7 +56,7 @@ theme:
 
   # Scripts
   google_analytics: "UA-23660048-1"
-  disqus_shortname:
+  disqus_shortname: "stereobooster"
   katex: false # Enable if using math markup
 
   # Localization strings

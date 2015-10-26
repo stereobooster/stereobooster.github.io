@@ -25,7 +25,6 @@ Ideas for blog and posts
 
  - Use gulp instead of Jekyll
  - Change avatar and design a little bit
- - Add discuss account
  - Add "time to read" to posts
  - List of good technical blogs
  - Special type posts: quote (fit text), idea, image, link(links)
