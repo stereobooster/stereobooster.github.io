@@ -102,6 +102,8 @@ gulp.task('deploy', ['build'], function () {
 .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
 {% endhighlight %}
 
+[critical path css tools](https://github.com/addyosmani/critical-path-css-tools)
+
 ### Remove unused CSS
 
 {% highlight javascript linenos %}
