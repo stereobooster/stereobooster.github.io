@@ -39,10 +39,13 @@ end
 
  - [letter_opener](https://github.com/ryanb/letter_opener) - Preview email in the default browser instead of sending it. This means you do not need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.
 
-### Coding Style
+### Code styling
  - [RuboCop](https://github.com/bbatsov/rubocop) is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community Ruby Style Guide.
+
+### Code quality
  - [Rails Best Practice](https://github.com/railsbp/rails_best_practices) is a code metric tool to check the quality of rails codes.
  - [Metric Fu](https://github.com/metricfu/metric_fu) - A fist full of code metrics
+ - [reek](https://github.com/troessner/reek)
 
 ### Security
  - [brakeman](https://github.com/presidentbeef/brakeman) is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
