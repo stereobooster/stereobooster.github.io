@@ -13,7 +13,6 @@ Sometimes there are cases when you want to store entities in DB, but it just doe
 
 So we have dilemma: it would be much easier to implement `right` entity as DB model, to use it in the mapping with `users`. But on the other side it is kind of repeating code: you store record in DB, plus declaring constants in the code. There is simple approach to overcome it: use object declared at run time (not stored in DB).
 
-### Existing solutions
- - For Active Record: [active_hash](https://github.com/zilkey/active_hash)
-
-
+### Active Record:
+  - [active_hash](https://github.com/zilkey/active_hash)
+  - [enum](http://api.rubyonrails.org/v4.1.0/classes/ActiveRecord/Enum.html)

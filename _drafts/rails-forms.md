@@ -7,7 +7,7 @@ title: rails forms
  - https://github.com/plataformatec/simple_form
  - https://github.com/justinfrench/formtastic
 
-### Clien-side validations
+### Client-side validations
  - http://railscasts.com/episodes/263-client-side-validations?view=asciicast
  - https://github.com/DavyJonesLocker/client_side_validations
  - https://github.com/joecorcoran/judge
