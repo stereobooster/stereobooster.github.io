@@ -13,6 +13,7 @@ title: js transpilers
   - [Roadmap](https://github.com/Microsoft/TypeScript/wiki/Roadmap)
  - [flow](http://flowtype.org/)
  - [immutable-js](https://github.com/facebook/immutable-js)
+ - [babel-plugin-typecheck](https://github.com/codemix/babel-plugin-typecheck). This is a Babel plugin for static and runtime type checking using flow type annotations.
 
 ### Advantage of true functional languages
  - [ClojureScript](https://github.com/clojure/clojurescript). See also:
@@ -22,7 +23,7 @@ title: js transpilers
  - [elm](http://elm-lang.org/). See [awesome elm](https://github.com/isRuslan/awesome-elm)
 
 ### Advantage of compilation techinques
- - [asm.js] – subset of JavaScript that can be used as a low-level, efficient target language for compilers. Now included in Firefox.
+ - [asm.js](http://asmjs.org/) – subset of JavaScript that can be used as a low-level, efficient target language for compilers. Now included in Firefox.
  - [jsx](https://jsx.github.io/)
  - [emscripten](https://github.com/kripken/emscripten)
 

@@ -3,13 +3,11 @@ layout: post
 title: Rails VPS stack
 ---
 
-Why VPS not private PaaS (like Heroku)? Do not like [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in)
+Why VPS anot not private PaaS (like Heroku)? Do not like [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in)
 
 ## Provisioning
 
 After small research I found that Docker is cool solution, which used by a lot of good companies. Like Heroku. Here is how they build [Cedar image](https://github.com/heroku/stack-images). There is OS initiative to reproduce heroku buildpacks/cedar expereience with your private cloud:
- - [cedarish](https://github.com/progrium/cedarish)
- - [herokuish](https://github.com/gliderlabs/herokuish)
  - [dokku](https://github.com/progrium/dokku)
 
 Or you can go with other good solutions:
