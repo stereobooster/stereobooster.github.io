@@ -128,6 +128,7 @@ Flynn fixes everything that's wrong with the process of deploying, scaling, and 
  - explylitly mark pay services (add link to prices) and OS (add link to repo)
 
 ## Other links
+ - [mesosphere](https://mesosphere.com/downloads/), https://github.com/mesosphere
  - [openstack](http://www.openstack.org/software/project-navigator/) Open source software for creating private and public clouds.
  - http://thesecretlivesofdata.com/raft/ Raft Understandable Distributed Consensus
  - http://www.opencontainers.org/ Docker is donating its container format and runtime, runC, to the OCI to serve as the cornerstone of this new effort.

@@ -51,6 +51,28 @@ end
  - [brakeman](https://github.com/presidentbeef/brakeman) is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
  - [bundler-audit](https://github.com/rubysec/bundler-audit) is a patch-level verification tool for Bundler which checks for vulnerable versions of gems and insecure gem sources.
 
+Gemfile:
+
+```ruby
+group :development, :test do
+  gem 'bundler-audit', require: false
+  gem 'brakeman', require: false
+end
+```
+
+circle.yml:
+
+```yaml
+test:
+  override:
+    - rake test
+  post:
+    - rake assets:precompile
+    - bundle exec bundle-audit update
+    - bundle exec bundle-audit check
+    - bundle exec brakeman
+```
+
 ### Production
  - [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
  - [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.

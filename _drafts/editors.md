@@ -8,6 +8,11 @@ http://brackets.io/, https://github.com/adobe/brackets/wiki/Brackets-Extensions
 http://nuclide.io/,
 http://www.sublimetext.com/3, https://packagecontrol.io/browse/popular, https://github.com/dreikanter/sublime-bookmarks
 
+### Editor independent tools
+ - https://srclib.org/
+ - https://github.com/nsf/gocode
+ - https://github.com/ternjs/tern
+
 ### Universal
  - http://editorconfig.org/
 

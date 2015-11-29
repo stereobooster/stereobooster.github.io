@@ -15,3 +15,6 @@ title: little schemer in js
 
 ### Other
  - https://github.com/jwhiteman/a-little-elixir-goes-a-long-way
+ - http://matt.might.net/articles/best-programming-languages/
+ - http://learnyouahaskell.com/introduction#so-whats-haskell
+ - http://racket-lang.org/

@@ -19,3 +19,7 @@ tags:
  - http://map-icons.com/
  - https://www.google.com/design/icons/
  - https://github.com/brabadu/awesome-fonts
+
+### Web-fonts
+ - [Web fonts performance](https://speakerdeck.com/bramstein/web-fonts-performance)
+ - [Death to icon fonts](https://speakerdeck.com/ninjanails/death-to-icon-fonts)

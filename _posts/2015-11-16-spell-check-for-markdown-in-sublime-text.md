@@ -3,6 +3,7 @@ layout: post
 title: Spell Check for Markdown in Sublime Text
 tag:
  - tips
+ - markdown
 ---
 
 Open any markdown file. Go to: `Preferences` → `Settings - More` → `Syntax Specific - User`.
@@ -22,7 +23,7 @@ Save file.
 **TODO** add better way to spell check markdown files.
 
 ### Other
-
+ - https://github.com/docker/markdownlint
  - https://robots.thoughtbot.com/vim-spell-checking
  - https://blog.mariusschulz.com/2014/12/16/how-to-set-up-sublime-text-for-a-vastly-better-markdown-writing-experience
  - https://packagecontrol.io/packages/MarkdownEditing

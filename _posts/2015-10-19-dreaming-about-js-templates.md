@@ -17,9 +17,12 @@ Lets imagine how ideal js templating engine can be. Will make check list.
  - Support partials (not in global namespace)
  - Async
  - Informative compilation errors. Maybe Source Maps
+ - Async Fragments technique [see](http://www.ebaytechblog.com/2014/12/08/async-fragments-rediscovering-progressive-html-rendering-with-marko/)
 
 ### Existing solutions
 
+ - https://github.com/marko-js/marko
+ - https://facebook.github.io/jsx/
  - https://github.com/tj/consolidate.js
  - http://www.dustjs.com/
  - http://ectjs.com/
