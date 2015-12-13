@@ -5,6 +5,8 @@ title: bash
 
 ###Unsorted links
 
+http://www.computerhistory.org/timeline/
+
 https://github.com/mcandre/linters#sh--shell--bash
 
 https://github.com/alebcay/awesome-shell

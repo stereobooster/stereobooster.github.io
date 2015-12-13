@@ -41,7 +41,13 @@ GEM
     listen (3.0.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    mdl (0.2.1)
+      kramdown (~> 1.5, >= 1.5.0)
+      mixlib-cli (~> 1.5, >= 1.5.0)
+      mixlib-config (~> 2.1, >= 2.1.0)
     mercenary (0.3.5)
+    mixlib-cli (1.5.0)
+    mixlib-config (2.2.1)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
@@ -64,6 +70,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-compose
+  mdl
 
 BUNDLED WITH
    1.10.6

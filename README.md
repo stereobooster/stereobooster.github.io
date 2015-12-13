@@ -7,8 +7,12 @@ bundle
 jekyll
 
 languagetool -l en-US file/path.md
+atdtool file/path.md
 # or
 languagetool -l en-US -r directory/
+
+mdast -u mdast-lint file/path.md
+bundle exec mdl file/path.md
 
 ```
 
