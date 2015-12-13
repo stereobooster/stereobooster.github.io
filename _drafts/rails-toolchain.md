@@ -11,7 +11,6 @@ title: rails toolchain
 
 - [jazz_hands](https://github.com/nixme/jazz_hands)
 
-
 ```ruby
 group :development do
   gem 'pry-nav'
@@ -70,7 +69,7 @@ test:
     - rake assets:precompile
     - bundle exec bundle-audit update
     - bundle exec bundle-audit check
-    - bundle exec brakeman
+    - bundle exec brakeman --exit-on-warn
 ```
 
 ### Production
@@ -96,6 +95,11 @@ group :development, :test do
   gem 'terminal-notifier-guard'
 end
 ```
+
+### Benchmarking and profiling
+
+ - https://github.com/schneems/derailed_benchmarks
+
 
 ### Frontend tooling
 

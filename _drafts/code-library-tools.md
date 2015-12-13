@@ -29,3 +29,19 @@ title: code library tools
 
  - http://gulpjs.com/plugins/
  - https://www.npmjs.com/browse/keyword/jquery-plugin
+
+### Skeleton for new project
+
+ - https://github.com/bkuhlmann/gemsmith
+
+### Private libs. Libs proxy
+
+ - https://github.com/bundler/gemstash
+
+### Update
+
+ - https://github.com/peerigon/updtr
+
+### Publish
+
+ - https://github.com/inikulin/publish-please

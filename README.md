@@ -5,6 +5,11 @@ This is my personal blog
 ```
 bundle
 jekyll
+
+languagetool -l en-US file/path.md
+# or
+languagetool -l en-US -r directory/
+
 ```
 
 ## TODO:
@@ -14,15 +19,16 @@ jekyll
 
 Ideas for blog and posts
 
+ - zero-downtime deployment, code-version compatibility, PaperTrail version compatiblity,
+  datavase able to handle migration without wontime
+ - JS versions API vs clientside.
+
  - UX for tables number alignment
  - sitaution with internal and understanding on what happens
  - special tags like stackowerflow (explanation, icon). IDEA: tagbase, API, description (wiki), icon, hashtags
  - UI/UX database (usecases, pros/cons, existing solutions)
  - JS streams
- - en/us typograf
- - en/us glvrd.ru
 
- - JS versions API vs clientside.
  - Idea of hot reload, and patch update
 
  - Use gulp instead of Jekyll

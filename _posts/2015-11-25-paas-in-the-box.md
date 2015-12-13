@@ -128,11 +128,8 @@ Flynn fixes everything that's wrong with the process of deploying, scaling, and 
  - explylitly mark pay services (add link to prices) and OS (add link to repo)
 
 ## Other links
- - [mesosphere](https://mesosphere.com/downloads/), https://github.com/mesosphere
- - [openstack](http://www.openstack.org/software/project-navigator/) Open source software for creating private and public clouds.
+ - [mesosphere](https://mesosphere.com/downloads/), https://github.com/mesosphere + [marathon](https://github.com/mesosphere/marathon)
  - http://thesecretlivesofdata.com/raft/ Raft Understandable Distributed Consensus
- - http://www.opencontainers.org/ Docker is donating its container format and runtime, runC, to the OCI to serve as the cornerstone of this new effort.
  - http://nixos.org/ The Purely Functional Linux Distribution
  - https://smartos.org/ SmartOS unites four extraordinary technologies to revolutionize the datacenter: [ZFS](http://open-zfs.org/wiki/Main_Page), [DTrace](http://dtrace.org/blogs/about/), [Zones](https://en.wikipedia.org/wiki/Solaris_Containers), [KVM](http://www.linux-kvm.org/page/Main_Page)
- - http://cloudstack.apache.org/ Apache CloudStack is a top-level project of the Apache Software Foundation (ASF). The project develops open source software for deploying public and private Infrastructure-as-a-Service (IaaS) clouds.
  - http://getcloudify.org/ Cloud Orchestration & Automation Made Easy

@@ -23,3 +23,4 @@ tags:
 ### Web-fonts
  - [Web fonts performance](https://speakerdeck.com/bramstein/web-fonts-performance)
  - [Death to icon fonts](https://speakerdeck.com/ninjanails/death-to-icon-fonts)
+ - [Web typography tools](http://www.hongkiat.com/blog/web-typography-tools/)
