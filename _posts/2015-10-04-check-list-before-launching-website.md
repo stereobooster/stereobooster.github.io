@@ -4,7 +4,7 @@ title: Check List Before Launching Website
 feature-img: "img/sample_feature_img_3.png"
 ---
 
-Work in progress: still adding items to the list. Each item should contain: sensible, descriptive name; optionaly short explantion why it is important and examples of tools to help solve the issue
+Work in progress: still adding items to the list. Each item should contain: sensible, descriptive name; optionaly short explanation why it is important and examples of tools to help solve the issue
 
 ## Common
  - Uptime monitoring. Pingdom or similar
@@ -31,9 +31,9 @@ Work in progress: still adding items to the list. Each item should contain: sens
 ## Development
  - Store source code in version control system. GIT
  - Use issue tracker. GitHub issues, PivotalTracker or similar
- - Make use of automative tests. Rspec, Mocha + Sinon + Chai or similar
+ - Make use of automatic tests. Rspec, Mocha + Sinon + Chai or similar
  - Check tests coverage. Simplecov, Blanket or similar
- - Coding standards. Use automative scripts to check them. Rubocop, JShint or similar
+ - Coding standards. Use automatic scripts to check them. Rubocop, JShint or similar
  - Use soft to check code quality. Code Climate, rails_best_practices, metric_fu, bullet, sandi_meter, traceroute
  - Use soft to check security issues. brakemanscanner.org, bundler-audit, dawnscanner
  - Use CI server. Travis, circleci, jenkins or similar
@@ -44,7 +44,7 @@ Work in progress: still adding items to the list. Each item should contain: sens
  - Check stylistics. glvrd.ru or similar
 
 ## SEO & SMO
- - Setup unique domain: www vs no-www. Use redirects for propper domain name
+ - Setup unique domain: www vs no-www. Use redirects for proper domain name
  - Check all pages have title, description and canonical url
  - Add RDF markup if appropriate
  - Add Open Graph markup

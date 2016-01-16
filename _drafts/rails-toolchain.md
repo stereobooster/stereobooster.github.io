@@ -96,6 +96,8 @@ group :development, :test do
 end
 ```
 
+TODO: https://github.com/sevos/zeus-parallel_tests
+
 ### Benchmarking and profiling
 
  - https://github.com/schneems/derailed_benchmarks

@@ -19,14 +19,7 @@ Clean code, tests, comments in code, well documented requirements and business r
 
 Automate everything. Document if you can't automate. Automate dev environment setup. This make quickstart easy
 
-
-
-
-
-Use standards. And stardand checking tools.
-
-Share knowledge and best practices.
-
+https://github.com/lukasz-madon/awesome-remote-job
 
 
 

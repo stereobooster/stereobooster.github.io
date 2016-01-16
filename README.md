@@ -6,11 +6,10 @@ This is my personal blog
 bundle
 jekyll
 
+languagetool -l en-US -r _posts/
+
 languagetool -l en-US file/path.md
 atdtool file/path.md
-# or
-languagetool -l en-US -r directory/
-
 mdast -u mdast-lint file/path.md
 bundle exec mdl file/path.md
 
@@ -18,14 +17,21 @@ bundle exec mdl file/path.md
 
 ## TODO:
 
+ - check spelling across all posts
+ - update blog design
  - support linenumbers for GFM code block (e.g. three backticks)
  - fix line numbers when scrolling horizontally
+
+ - social: twitter, hacker news
 
 Ideas for blog and posts
 
  - zero-downtime deployment, code-version compatibility, PaperTrail version compatiblity,
   datavase able to handle migration without wontime
  - JS versions API vs clientside.
+ - "Bare" javascript (without jQuery)
+ - memes autogenerator, gif search, memes search
+ - site for legal improvements, jQuery, Homebrew
 
  - UX for tables number alignment
  - sitaution with internal and understanding on what happens
@@ -33,7 +39,7 @@ Ideas for blog and posts
  - UI/UX database (usecases, pros/cons, existing solutions)
  - JS streams
 
- - Idea of hot reload, and patch update
+ - Idea of hot reload and patch update
 
  - Use gulp instead of Jekyll
   - http://www.rioki.org/2014/06/09/jekyll-to-gulp.html
