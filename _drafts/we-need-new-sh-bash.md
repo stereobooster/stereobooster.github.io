@@ -9,7 +9,7 @@ title: We need new sh (bash)
 
 `sh` itself is not an implementation: `/bin/sh` is a symlink (or a hard link) to an actual implementation. There are many different implementations of `sh`: `bash`, `dash`, `zsh`. It is required to be present on all [POSIX](https://en.wikipedia.org/wiki/POSIX) systems.
 
-**So `sh` is basic admin/devop tool for scripting POSIX systems.**
+**So `sh` is basic admin/devops tool for scripting POSIX systems.**
 
 ## Implementations
 

@@ -3,7 +3,7 @@ layout: post
 title: PAAS in the box
 ---
 
-Comparision of PAAS in the box solutions. How Docker relates to Vagrant? What is otto and nanobox? Enroll your own Heroku for $5?
+Comparison of PAAS in the box solutions. How Docker relates to Vagrant? What is otto and nanobox? Enroll your own Heroku for $5?
 
 ## [HashiCorp ecosystem](https://hashicorp.com/)
 Application delivery done right.
@@ -124,8 +124,8 @@ Flynn fixes everything that's wrong with the process of deploying, scaling, and 
 
 ## TODO
  - make table to compare toolset
- - make table to analize underlying technologies (most of the use docker and vagrant)
- - explylitly mark pay services (add link to prices) and OS (add link to repo)
+ - make table to analyze underlying technologies (most of the use docker and vagrant)
+ - explicitly mark pay services (add link to prices) and OS (add link to repo)
 
 ## Other links
  - [mesosphere](https://mesosphere.com/downloads/), https://github.com/mesosphere + [marathon](https://github.com/mesosphere/marathon)

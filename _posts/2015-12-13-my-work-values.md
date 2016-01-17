@@ -45,7 +45,7 @@ This is seems to be obvious but on practice it is far from truth
 
 ## One team
 
-Company should be one team - bunch of people connected with one big goal, sharing same ideas and believes. If you start to divide team to “them” and “we” this is first symptom. Instead of dividing people, gather them in small groups based on interest, responsibility etc. Everybody should have vote, right and ability to brought their view to public. If you limit communication - you limit creativity. Creativity is about breaking limits and thinking out of the box.
+Company should be one team - bunch of people connected with one big goal, sharing same ideas and believes. If you start to divide team to “them” and “we” this is first symptom. Instead of dividing people, gather them in small groups based on interest, responsibility etc. Everyone should have vote right and ability to brought their view to public. If you limit communication - you limit creativity. Creativity is about breaking limits and thinking out of the box.
 
 ## Requirements first
 
@@ -81,7 +81,7 @@ You put one more dependency in project. It means:
 - team members can have different OSes, processors with different architectures. **Plus one** if development environment use virtualization
 - you will need to setup it across all stagings and production servers. **Plus one** if provisioning of servers is automated. Plus two if you reuse same provisioning scripts for development and production.
 - if it is client-side library you need to be sure it works on all targeted devices. **Plus one** if you have targeted devices (OS, architecture, soft versions, screen size etc) is documented as requirements. **Plus two** if you can run automated tests against all targeted devices. **Plus three** if tests connected to Continuous Integration service
-- every client will need to download new dependency. Sometimes they will need to download it again and again. In case of facebook every bit in js will cost a lot of traffic.
+- every client will need to download new dependency. Sometimes they will need to download it again and again. In case of Facebook every bit in js will cost a lot of traffic.
 - new dependency will cost not just traffic, but memory and CPU. For client even 0.1 sec can change impression of app speed. For server it will add costs to every application instance (thread) running.
 - check if it is secure. **Plus one** if you can prove that it wasn't tampered based on digital signature. **Plus two** if you have automated script to check if there any vulnerabilities discovered based on public reports. **Plus three** if you have general vulnerability scanner and system hardening scripts. Plus for if they run automatically on CI build and on schedule.
 

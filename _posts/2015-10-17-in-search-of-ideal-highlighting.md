@@ -7,7 +7,7 @@ I was looking the best way to post code snippets in my Jekyll blog (this one whi
 
 ### GFM fenced code blocks (or happy three backticks)
 
-GFM fenced code block looks much more elegant then liqiud highlight tag.
+GFM fenced code block looks much more elegant than liqiud highlight tag.
 
     ```language
     ```

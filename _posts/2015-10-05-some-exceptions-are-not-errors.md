@@ -18,4 +18,4 @@ rescue_from CanCan::AccessDenied do |exception|
 end
 ```
 
-But there are some edge cases. Consider ActiveRecord::RecordNotFound, which can be used for control flow. Everything works as supposed if you work with `resource` (like `resource/:id`). But if your action retrieves more then one record, you probably want to know which exactly entity wasn't found.
+But there are some edge cases. Consider ActiveRecord::RecordNotFound, which can be used for control flow. Everything works as supposed if you work with `resource` (like `resource/:id`). But if your action retrieves more than one record, you probably want to know which exactly entity wasn't found.

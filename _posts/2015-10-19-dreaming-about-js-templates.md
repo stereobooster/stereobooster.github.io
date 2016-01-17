@@ -6,9 +6,9 @@ title: Dreaming about js templates
 Lets imagine how ideal js templating engine can be. Will make check list.
 
  - Isomorphic: support both client and server
- - Optimize client perfomance: it is possible to precompile on server
- - No nasty white spaces in precompiled templates. Side note: ejs `<% %>` tags do not work that well with html minifiers
- - Optimize server perfomance: support fragment caching
+ - Optimize client performance: it is possible to precompile on server
+ - No nasty white spaces in precompiled templates. Side note: ejs `<% %>` tags do not work that well with HTML minifiers
+ - Optimize server performance: support fragment caching
  - Optimize browser rendering: virtual DOM tree and value-diffing strategy. As React and Glimmer do
  - Safety: escape all output by default
  - Extensibility: easy to implement helpers, filters
@@ -34,7 +34,7 @@ Lets imagine how ideal js templating engine can be. Will make check list.
  - http://jade-lang.com/
  - http://underscorejs.org/#template
 
-### Comparisions
+### Comparisons
 
  - https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/
  - https://garann.github.io/template-chooser/

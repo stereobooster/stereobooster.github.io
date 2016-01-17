@@ -11,7 +11,7 @@ There are two new kids on the block. Which are not mentioned on [ruby toolbox](h
 
 ## Godmin
 
-[Godmin](https://github.com/varvet/godmin) is an admin framework for Rails 4+. Use it to build dedicated admin sections for your apps, or stand alone admin apps such as internal tools. It has support for common features such as scoping, filtering and performing batch actions on your models
+[Godmin](https://github.com/varvet/godmin) is an admin framework for Rails 4+. Use it to build dedicated admin sections for your apps, or standalone admin apps such as internal tools. It has support for common features such as scoping, filtering and performing batch actions on your models
 
 ### Guiding Principles
 

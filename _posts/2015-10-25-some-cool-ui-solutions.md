@@ -12,14 +12,14 @@ You typically do not show user progress of backgrounds job (thats why you call i
 ![Async progress](/assets/ui-async-progress.png)
 
 ### Smart tags (by StackOverflow)
-Words can have more then one meaning. It is good idea idea to explain what exactly you mean by tag.
+Words can have more than one meaning. It is good idea to explain what exactly you mean by tag.
 ![Smart tag](/assets/ui-smart-tag.png)
 
 ### Hints (by Yandex Market)
-In case of complex forms, it is good idea to explain what field mean, what possible values can be to help user to make desicion.
+In case of complex forms, it is good idea to explain what field mean, what possible values can be to help user to make decision.
 ![Yandex hint](/assets/ui-yandex-hint.png)
 
 ### Search everywhere
 Make thing more accessible by allowing search for every long item list. It is more easy with browser because you can use `Cmd + F`. But not with mobile browsers, see ["CMD+F" for Mobile Safari](http://steff.me/journal/cmdf-for-mobile-safari/)
-![Mac settigns](/assets/ui-mac-settings.png)
+![Mac settings](/assets/ui-mac-settings.png)
 

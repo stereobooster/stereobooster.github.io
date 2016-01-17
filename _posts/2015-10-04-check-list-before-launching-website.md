@@ -4,7 +4,7 @@ title: Check List Before Launching Website
 feature-img: "img/sample_feature_img_3.png"
 ---
 
-Work in progress: still adding items to the list. Each item should contain: sensible, descriptive name; optionaly short explanation why it is important and examples of tools to help solve the issue
+Work in progress: still adding items to the list. Each item should contain: sensible, descriptive name; optionally short explanation why it is important and examples of tools to help solve the issue
 
 ## Common
  - Uptime monitoring. Pingdom or similar
