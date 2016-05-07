@@ -101,3 +101,13 @@ Online services which doesn't seems to be very promising:
 - http://aclweb.org/anthology/W/W10/W10-0404.pdf
 - https://www.artlebedev.ru/everything/izdal/spravochnik-izdatelya-i-avtora-2014/
 - http://www.chompchomp.com/
+
+# Syntax highlighting
+
+https://github.com/mortenjust/cleartext-mac
+http://www.mrspeaker.net/dev/syntx/
+http://evanhahn.github.io/English-text-highlighting/
+https://news.ycombinator.com/item?id=11294026
+https://english.edward.io/
+http://swizec.com/blog/i-wish-this-existed/swizec/4045
+https://github.com/inderpreetsingh/Lord-Byron

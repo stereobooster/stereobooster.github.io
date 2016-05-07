@@ -95,7 +95,9 @@ It can be shortcut now, but over time it will cost you more. See [technical debt
 
 ### Example 2
 
-You wrote letter and spent just 10 minutes (not paying attention to what you wrote). Your teammates (each) will spend time to decrypt, what did you mean. Then you will get response, probably with question. Because everybody is busy there will be delay between messages. You get the point.
+You wrote letter and spent just 10 minutes (not paying attention to what you wrote). Your teammates (each) will spend time to decrypt, what did you mean. Then you will get response, probably with question. Because everybody is busy there will be delay between messages.
+
+You got the point.
 
 ## Automate everything
 

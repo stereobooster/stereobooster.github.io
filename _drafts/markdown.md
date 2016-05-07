@@ -12,6 +12,8 @@ tag:
 - [MultiMarkdown](https://rawgit.com/fletcher/human-markdown-reference/master/index.html)
 - [commonmark](http://commonmark.org/)
 
+[MDWriter](https://github.com/kurai021/MDWriter) A markdown desktop editor with steroids powered by the web
+
 # Features
 - Markdown lint
   - https://github.com/mivok/markdownlint/blob/master/docs/RULES.md
@@ -34,7 +36,7 @@ tag:
   - lint
   - syntax highlight
 - Quotes
-- Footnots
+- Footnotes
 - Icons
   - https://github.com/MadLittleMods/markdown-icons
 

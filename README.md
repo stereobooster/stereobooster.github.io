@@ -10,6 +10,9 @@ languagetool -l en-US -r _posts/
 
 languagetool -l en-US file/path.md
 atdtool file/path.md
+proselint file/path.md
+aspell check file/path.md
+
 mdast -u mdast-lint file/path.md
 bundle exec mdl file/path.md
 
