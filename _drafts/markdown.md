@@ -12,7 +12,12 @@ tag:
 - [MultiMarkdown](https://rawgit.com/fletcher/human-markdown-reference/master/index.html)
 - [commonmark](http://commonmark.org/)
 
-[MDWriter](https://github.com/kurai021/MDWriter) A markdown desktop editor with steroids powered by the web
+# Markdown editors
+- [MDWriter](https://github.com/kurai021/MDWriter) A markdown desktop editor with steroids powered by the web.
+- [Monod](https://github.com/TailorDev/monod) is a (relatively) secure and offline-first Markdown editor we built at TailorDev.
+- http://prose.io/
+- http://moduscreate.com/editing-markdown-for-github/
+- http://dillinger.io/
 
 # Features
 - Markdown lint
