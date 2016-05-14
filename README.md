@@ -2,12 +2,14 @@
 
 This is my personal blog
 
+## workflow
+
+1. start server `jekyll l`
+1. `jekyll draft NAME` TODO: should open text editor automtically
+1. TODO: setup text editor, so it would exclude `.bundle`, `.sass-chace`, `node_modules`, `_sites` from search
+1. check spelling, lint markdown
+
 ```
-bundle
-jekyll
-
-languagetool -l en-US -r _posts/
-
 languagetool -l en-US file/path.md
 atdtool file/path.md
 proselint file/path.md
@@ -18,10 +20,14 @@ bundle exec mdl file/path.md
 
 ```
 
+1. `jekyll publish _drafts/NAME.md` TODO: should accept NAME
+
+
 ## TODO:
 
- - install plugins
-   - SEO tags, live reload etc
- - install new theme
- - social: twitter, hacker news, redit
-
+- implement excerpt feature http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/
+- some kind of app/script/editor extension which will highlight, gather all TODOs, beacuse Im embeding them in posts
+- `jekyll post NAME` opens `vim`, switch to other editor
+- social: twitter, hacker news, redit
+- https://github.com/juusaw/amp-jekyll
+- domain, https with cloudflare

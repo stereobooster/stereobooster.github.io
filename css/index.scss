@@ -1,0 +1,119 @@
+---
+---
+
+// $mint-color: #CFEAE1;
+// $carmine: #EF3C42;
+
+// $body-bg: #FCF1DD;// #FCF7F7;
+
+@import 'foundation/normalize';
+// TODO: use only required components
+@import 'foundation/foundation';
+
+.hero {
+  min-height: 100vh;
+  padding-top: 4em;
+  padding-bottom: 3em;
+
+  h1 {
+    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 4em;
+  }
+
+  .text {
+    padding-top: 1em;
+    margin-top: 3em;
+  }
+
+  @media #{$medium-up} {
+    .text {
+      margin-top: 16em;
+      padding-top: 1em;
+    }
+  }
+
+}
+
+.content {
+  margin-top: 3em;
+}
+
+.post {
+  margin-bottom: 3em;
+}
+
+.post-hero {
+  padding-top: 6em;
+  padding-bottom: 4em;
+  h1 {
+    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 4em;
+  }
+}
+
+
+// B/W
+a, a:hover {
+  color: $body-font-color;
+  // text-decoration: underline;
+  border-bottom: 1px solid $body-font-color;
+}
+
+.hero {
+  .text {
+    border-left: 1px solid $body-font-color;
+  }
+}
+
+// .seigaiha {
+//   background-color:silver;
+//   background-image:
+//   radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+//   radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+//   radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+//   radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+//   radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+//   background-size:100px 50px;
+// }
+
+// .polka-dot {
+//   $dot-color: #08415C;
+//   $dot-size: 2%;
+//   $dot-distance: 4em;
+//   $dot-distance-multiplier: 1;
+//   background-color: $body-bg;
+//   background-image: radial-gradient($dot-color $dot-size, transparent $dot-size + 1),
+//   radial-gradient($dot-color $dot-size, transparent $dot-size + 1);
+//   background-size:$dot-distance*$dot-distance-multiplier $dot-distance*$dot-distance-multiplier;
+//   background-position: $dot-distance/2 $dot-distance/2, $dot-distance*3/2 $dot-distance*3/2;
+// }
+
+// $wall: #474A56;
+// $yellow: #FFCC33;
+
+// .hero {
+//   background: $wall;
+
+//   h1 {
+//     color: $body-bg;
+//     background: none;
+//   }
+
+//   .text {
+//     background: $yellow;
+//   }
+// }
+
+// .post .title {
+// h1, h2, h3 {
+//   padding-left: 0.2em;
+//   padding-right: 0.2em;
+//   color: $wall;
+//   background: $yellow;
+//   a, a:hover { color: $wall; }
+// }
+// }

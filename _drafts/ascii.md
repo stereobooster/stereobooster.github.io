@@ -1,0 +1,22 @@
+
+```
+┌──────┐
+│.md   │┐
+└──────┘│ ────┐
+ └──────┘     │
+┌──────┐      ├────
+│.json │┐     │
+└──────┘│ ────┘
+ └──────┘
+
+```
+
+https://en.wikipedia.org/wiki/Box-drawing_character
+https://en.wikipedia.org/wiki/ASCII_art
+http://asciiflow.com/
+http://ditaa.sourceforge.net/
+http://asciidoctor.org/news/2014/02/18/plain-text-diagrams-in-asciidoctor/
+http://www.jave.de/
+
+https://news.ycombinator.com/item?id=2651745
+http://cinsk.github.io//emacs/emacs-artist.html
