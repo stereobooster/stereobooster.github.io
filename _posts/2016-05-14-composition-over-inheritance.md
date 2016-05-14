@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Composition over Inheritance
+tags:
+  - video
+  - functional
+  - oop
 ---
 
 <div class="row">

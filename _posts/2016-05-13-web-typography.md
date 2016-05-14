@@ -73,6 +73,7 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 ### Vertically centering text
 
 - http://lea.verou.me/2013/03/easily-center-text-vertically-with-svg/
+- http://howtocenterincss.com/#
 
 ## Issues
 
