@@ -9,7 +9,7 @@ title: Web Typography
 
 Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which describes problems of modern web typography and how it is relates with classical book printing mastery.
 
-TODO: list books mentioned in video.
+**TODO**: list books mentioned in video.
 
 **Disclaimer**: unfinished post / collection of links / side notes
 
@@ -56,6 +56,10 @@ TODO: list books mentioned in video.
 
 - https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9
 
+### Big text headers
+
+- http://fittextjs.com/
+- http://freqdec.github.io/slabText/
 
 ## Issues
 

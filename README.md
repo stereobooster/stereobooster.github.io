@@ -31,5 +31,6 @@ bundle exec mdl file/path.md
 - some kind of app/script/editor extension which will highlight, gather all TODOs, because I'm embedding them in posts
 - `jekyll post NAME` opens `vim`, switch to other editor
 - social: twitter, hacker news, redit
+- add "edit this page" link
 - https://github.com/juusaw/amp-jekyll
 - domain, https with cloudflare

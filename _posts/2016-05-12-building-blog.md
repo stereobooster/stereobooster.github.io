@@ -5,10 +5,8 @@ title: Building blog
 
 ## Motivation
 
-I want to build, let's call it a blog. Something that I can use as notebook, knowledge-base, snippets store, share platform. Other purposes of this blog are: train writing skills and use it as CV.
+I want to build, let's call it a blog. Something that I can use as notebook, knowledge-base, snippets store, share platform. Other purposes of this blog are: [train writing skills](/proofreading-software) and use it as CV.
 
-
-**TODO**: write blog post on how to improve writing skills. Communication is the key. It is one of advantages which allowed humans dominate as species. Mention "Elements of style" and soft for automatic proofreading.
 
 **TODO**: create CV page and/or portfolio page
 
