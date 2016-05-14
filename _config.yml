@@ -17,16 +17,16 @@ github:
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: "stereobooster's blog"
+  title: "stereobooster blog"
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: >
-   I'm a passionate developer and technical estet in search of truth and wisdom on software development.
+   I'm a passionate developer and technical esthete in search of truth and wisdom on software development.
    This is my blog and notepad. I want it to be something as solid as codinghorror. But it also can contain some reminders to myself and code snippets.
 
   # Header and footer text
   header_text: >
-   <p>I'm a passionate developer and technical estet in search of truth and wisdom on software development.</p>
+   <p>I'm a passionate developer and technical esthete in search of truth and wisdom on software development.</p>
    <p>This is my blog and notepad. I want it to be something as solid as codinghorror. But it also can contain some reminders to myself and code snippets.</p>
   header_text_feature_image:
   footer_text:
