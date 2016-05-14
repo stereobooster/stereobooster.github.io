@@ -76,7 +76,7 @@ theme:
 permalink: :title
 
 # PAGINATION
-paginate: 5
+paginate: 20
 paginate_path: "blog/page:num"
 
 excerpt_separator: "\n\n\n"
