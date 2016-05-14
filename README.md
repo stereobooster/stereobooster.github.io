@@ -26,7 +26,7 @@ bundle exec mdl file/path.md
 
 ## TODO:
 
--
+- how to make `aspell` to memorize ignored words across sesions?
 - implement excerpt feature http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/
 - some kind of app/script/editor extension which will highlight, gather all TODOs, because I'm embedding them in posts
 - `jekyll post NAME` opens `vim`, switch to other editor

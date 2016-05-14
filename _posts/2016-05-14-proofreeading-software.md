@@ -1,24 +1,19 @@
 ---
 layout: post
-title: Spell, Grammar, Style Checkers. Proofreading software
+title: "Proofreading software: Spell, Grammar, Style Checkers"
 ---
 
-# What do I want
+**TL;DR**
 
-- Spell, grammar, style checker.
-- Typography checker. With auto-correct option.
-- Command line tool with color support.
-- Command line tool with interactive mode. It will ask you what to do on every error. And it will be possible to add words to ignore list.
-- Command line tool that able to generate report. And exit with error (non zero) code, so it will be possible to detect failure status in command line.
-- With per folder/project settings: to ignore words, to ignore style rules, to set default language.
-- Ability to integrate with editors using general interface or protocol like [sublime linters](http://www.sublimelinter.com/en/latest/) do.
-- Support of markdown
+The most useful so far are `aspell` and `proselint`. Both can tolerate markdown.
 
-I want basically something like [mdast-lint](https://github.com/wooorm/mdast-lint) or [eslint](http://eslint.org/docs/user-guide/command-line-interface) or [rubocop](https://github.com/bbatsov/rubocop), but for natural language.
+```
+aspell check file/path.md
+proselint file/path.md
+```
 
-# What exists out there (open source)
+While software can be helpful, please do not forget about good old books. Classic book on the subject is [The Elements of Style by William Strunk, Jr.](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm)
 
-**TODO**: implement automated comparison test.
 
 ## LanguageTool
 
@@ -36,7 +31,7 @@ Possible to install with 'homebrew'
 
 ## Retext
 
-[retext](https://github.com/wooorm/retext) is an extensible natural language processor with support for multiple languages. Retext provides a pluggable system for analyzing and manipulating natural language in JavaScript. Node and the browser. 100% coverage.
+[retext](https://github.com/wooorm/retext) is an extendable natural language processor with support for multiple languages. Retext provides a pluggable system for analyzing and manipulating natural language in JavaScript. Node and the browser. 100% coverage.
 
 > Rather than being a do-all library for Natural Language Processing (such as
 > [NLTK](http://www.nltk.org) or [OpenNLP](https://opennlp.apache.org)),
@@ -75,25 +70,6 @@ Written in **JavaScript**.
 
 See also [comparison of typography checkers](http://www.typograf.ru/flog/)
 
-## hemingway
-
-[hemingway](http://www.hemingwayapp.com/)
-
-## grammarly
-
-[grammarly](https://www.grammarly.com)
-
-## Other online services
-
-Online services which doesn't seems to be very promising:
-
-- http://editminion.com/
-- http://www.gingersoftware.com/grammarcheck
-- http://spellcheckplus.com/
-- http://www.reverso.net/spell-checker/english-spelling-grammar/
-- https://www.autocrit.com/
-- http://www.grammarbase.com/
-
 # Publications
 
 - http://academicguides.waldenu.edu/writingcenter/publication
@@ -102,12 +78,12 @@ Online services which doesn't seems to be very promising:
 - https://www.artlebedev.ru/everything/izdal/spravochnik-izdatelya-i-avtora-2014/
 - http://www.chompchomp.com/
 
-# Syntax highlighting
+# English Syntax Highlighters
 
-https://github.com/mortenjust/cleartext-mac
-http://www.mrspeaker.net/dev/syntx/
-http://evanhahn.github.io/English-text-highlighting/
-https://news.ycombinator.com/item?id=11294026
-https://english.edward.io/
-http://swizec.com/blog/i-wish-this-existed/swizec/4045
-https://github.com/inderpreetsingh/Lord-Byron
+- https://english.edward.io English Syntax Highlighter
+- https://github.com/mortenjust/cleartext-mac A text editor that only allows the 1,000 most common words in English
+- http://www.mrspeaker.net/dev/syntx/
+- http://evanhahn.github.io/English-text-highlighting/
+- https://news.ycombinator.com/item?id=11294026
+- http://swizec.com/blog/i-wish-this-existed/swizec/4045
+- https://github.com/inderpreetsingh/Lord-Byron
