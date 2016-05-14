@@ -3,7 +3,7 @@ layout: post
 title: Web Typography
 ---
 
-<div class="flex-video">
+<div class=flex-video>
   <iframe width=560 height=315 src=https://www.youtube.com/embed/MI7Xz-_ddu4 frameborder=0 allowfullscreen></iframe>
 </div>
 
@@ -13,6 +13,15 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
 **Disclaimer**: unfinished post / collection of links / side notes
 
+
+## Reading
+**TODO**: implement 3-column "galxy-layout" page. See also [creating your awesome list](https://github.com/sindresorhus/awesome/blob/master/create-list.md), https://deanhume.github.io/typography/
+
+- https://www.awesomeweb.com/blog/perfecting-web-typography
+- http://alistapart.com/article/more-meaningful-typography
+- http://nicewebtype.com/
+- http://universaltypography.com/demo/
+- http://webtypography.net/intro/
 
 ## Vertical rhythm
 
@@ -60,6 +69,10 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
 - http://fittextjs.com/
 - http://freqdec.github.io/slabText/
+
+### Vertically centering text
+
+- http://lea.verou.me/2013/03/easily-center-text-vertically-with-svg/
 
 ## Issues
 

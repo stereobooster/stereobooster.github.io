@@ -30,7 +30,7 @@
 
   @media #{$medium-up} {
     .text {
-      margin-top: 16em;
+      margin-top: 17em;
       padding-top: 1em;
     }
   }
@@ -67,6 +67,7 @@ a, a:hover {
 .hero {
   .text {
     border-left: 1px solid $body-font-color;
+    border-bottom: 1px solid $body-font-color;
   }
 }
 
