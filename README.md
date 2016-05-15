@@ -24,6 +24,13 @@ bundle exec mdl file/path.md
 1. `jekyll publish _drafts/NAME.md` TODO: should accept NAME
 
 
+## POSTS
+
+- stereobooster logo
+- typography awseome list (golden ratio - column - glvrd poster)
+
+
+
 ## TODO:
 
 - how to make `aspell` to memorize ignored words across sesions?
@@ -34,3 +41,4 @@ bundle exec mdl file/path.md
 - add "edit this page" link
 - https://github.com/juusaw/amp-jekyll
 - domain, https with cloudflare
+- use http2 push or inline critical css in heder https://mademistakes.com/articles/using-jekyll-2016/
