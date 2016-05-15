@@ -9,6 +9,6 @@ picture: /assets/goto-vs-exceptions.png
 ### Spoiler alert
 
 
-## They are the same
+## They are the same &mdash; turbo-tastic!
 
 ![They are the same](/assets/turbo.gif)

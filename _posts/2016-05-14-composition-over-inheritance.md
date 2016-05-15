@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Composition over Inheritance
+layout: post
 tags:
   - video
   - functional

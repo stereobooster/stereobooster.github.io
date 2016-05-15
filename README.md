@@ -28,6 +28,8 @@ bundle exec mdl file/path.md
 
 - stereobooster logo
 - typography awseome list (golden ratio - column - glvrd poster)
+- open source science (hub, sageMath, kickstarter app for DNA, spectrometry)
+-
 
 
 

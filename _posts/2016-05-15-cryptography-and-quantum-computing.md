@@ -21,6 +21,16 @@ tags:
 </div>
 
 
+While this seems to be not a big deal to factor 15, this is significant breakthrough. This is actual working prototype of quantum computer. It is just matter of time when it will be `production ready™`.
+
+What does matter is that this `production ready` version of quantum computer would be open-source and affordable for everyone, because otherwise it will become weapon. Trying to protect privacy with classic encryption against quantum computer is like trying to stop hot knife with butter.
+
+### Don't let the history repeat
+
+Picture bellow shows how technologically advanced conquistadors (wearing armor, using firearms and riding horses) fought with Aztecs
+
+![conquistadors](/assets/conquistadors.jpg)
+
 ## Not on the subject, but related
 
 ### Security
