@@ -12,7 +12,7 @@ tags:
     <p><a href="http://preciousplastic.com/">Precious plastic</a> is an open source project about plastic recycling. Among the other things it allows to produce plastic cords.
     </p>
     <div class=flex-video>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VdUkOjIP0Ok?start=253" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VdUkOjIP0Ok?start=253&end=303" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="columns medium-6 large-6">
