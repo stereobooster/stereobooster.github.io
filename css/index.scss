@@ -9,10 +9,18 @@
 
 // $body-bg: #FCF1DD;// #FCF7F7;
 
-@import 'foundation/normalize';
-// TODO: use only required components
-@import 'foundation/foundation';
+// $font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+// $body-font-family: $font-family-sans-serif;
+
+// @import 'foundation/foundation';
+@import 'normalize';
+@import 'foundation/components/grid';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/flex-video';
+@import 'foundation/components/type';
+@import 'foundation/components/visibility';
 @import 'pygments';
+@import 'underline';
 
 .hero {
   min-height: 100vh;
@@ -64,7 +72,7 @@
 a, a:hover {
   color: $body-font-color;
   // text-decoration: underline;
-  border-bottom: 1px solid $body-font-color;
+  // border-bottom: 1px solid $body-font-color;
 }
 
 .hero {

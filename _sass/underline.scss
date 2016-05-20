@@ -1,0 +1,54 @@
+// http://www.acusti.ca/blog/2014/11/28/towards-a-more-perfect-link-underline/
+// Colors
+$color-accent: $body-font-color;
+$selection-color: #F40076; //lighten($color-accent, 25%)
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+  // Underline via gradient background
+  background-image: linear-gradient(rgba($color-accent, 0.25) 0%, $color-accent 100%);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 95%;
+  // Tweak position + thickness for high res (1.75x and up) displays
+  @media (-webkit-min-device-pixel-ratio: 1.75),
+         (min-resolution: 168dpi) {
+    background-image: linear-gradient(rgba($color-accent, 0.25) 0%, $color-accent 100%);
+    background-position: 0 93%;
+  }
+  // Clear descendors from underline
+  text-shadow: 3px 0 white, 2px 0 white, 1px 0 white, -1px 0 white, -2px 0 white, -3px 0 white;
+  // &:hover {
+  //   color: darken($color-accent, 11%);
+  //   background-image: linear-gradient(to bottom, darken($color-accent, 6%) 0%, darken($color-accent, 6%) 100%);
+  // }
+  // Style selected links (or else text-shadow makes it look crazy ugly)
+  // Pseudo selectors must go separately, or they break each other
+  &,
+  > * {
+    &::selection {
+      background-color: $selection-color;
+      color: $body-font-color;
+      text-shadow: none;
+    }
+    &::-moz-selection {
+      background-color: $selection-color;
+      color: $body-font-color;
+      text-shadow: none;
+    }
+  }
+}
+h1, h2, h3 {
+  a {
+    background-size: 1px 2px;
+    @media (-webkit-min-device-pixel-ratio: 1.75),
+           (min-resolution: 168dpi) {
+      background-position: 0 93%;
+      background-image: linear-gradient($color-accent 0%, $color-accent 100%);
+      background-size: 1px 1px;
+      background-position: 0 93%;
+    }
+  }
+}
+
