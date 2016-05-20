@@ -1,7 +1,7 @@
 ---
 title: goto vs excetions
 layout: post
-picture: /assets/goto-vs-exceptions.png
+image: /assets/goto-vs-exceptions.png
 ---
 
 ![goto vs exceptions](/assets/goto-vs-exceptions.png)
