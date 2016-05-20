@@ -74,3 +74,11 @@ http://openmaterials.org/
 http://www.kaaproject.org/overview/
 
 But before hopping to this super-trendy-media-buzz train read some of [@internetofshit](https://twitter.com/internetofshit)
+
+## DIY household chemistry
+
+- [books](https://www.goodreads.com/shelf/show/diy)
+- http://www.davidsuzuki.org/publications/downloads/2011/QueenOfGreen-Green-cleaning-recipes.pdf
+- http://www.theecologycenter.org/resources/diy-non-toxic-cleaning-products
+
+
