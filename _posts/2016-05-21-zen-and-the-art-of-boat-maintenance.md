@@ -14,3 +14,5 @@ See also:
 - [Zen and the Art of Motorcycle Maintenance](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance)
 - [How can I legally adopt an abandoned sailboat for free, to fix up?](https://www.quora.com/Sailing-How-can-I-legally-adopt-an-abandoned-sailboat-for-free-to-fix-up)
 - [Free Boats](http://www.boneyardboats.com/Free_Boats/)
+- [Kon-Tiki expedition](https://en.wikipedia.org/wiki/Kon-Tiki_expedition)
+- [Alain Bombard](https://en.wikipedia.org/wiki/Alain_Bombard), [Hannes Lindemann](https://en.wikipedia.org/wiki/Hannes_Lindemann)
