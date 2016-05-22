@@ -3,7 +3,7 @@ layout: post
 title: Open source civilization
 tags:
   - video
-  - ecology
+  - ♻ ecology
   - open source
 ---
 
@@ -81,4 +81,11 @@ But before hopping to this super-trendy-media-buzz train read some of [@internet
 - http://www.davidsuzuki.org/publications/downloads/2011/QueenOfGreen-Green-cleaning-recipes.pdf
 - http://www.theecologycenter.org/resources/diy-non-toxic-cleaning-products
 
+## 3D printing
+
+- http://materialsandmethods.wix.com/hacking#!i-did-316/f6t03
+- http://www.keep-art.co.uk/Self_build.html
+- http://opensourceecology.org/wiki/Bioplastics
+- http://opensourceecology.org/wiki/Bioplastic_Extruder
+- https://github.com/jonnor/projects/tree/master/bioplastic
 

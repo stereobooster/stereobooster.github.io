@@ -3,7 +3,7 @@ layout: post
 title: From plastic recycling to 3D printing
 tags:
   - video
-  - ecology
+  - ♻ ecology
   - open source
 ---
 

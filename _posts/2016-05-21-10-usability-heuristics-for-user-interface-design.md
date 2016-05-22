@@ -58,7 +58,6 @@ tags:
     <img src="/assets/posts/10-usability-heuristics-for-user-interface-design/geocities.png" />
     <h3>Aesthetic and minimalist design</h3>
     <p>Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.</p>
-    <p><b>This is original text, even though it is not connected to the title</b></p>
     <p><a href="https://www.google.ru/search?q=geocities&tbm=isch">Google geocities</a></p>
   </div>
   <div class="columns medium-4 large-4">

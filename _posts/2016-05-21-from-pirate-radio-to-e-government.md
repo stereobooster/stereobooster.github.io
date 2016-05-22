@@ -5,7 +5,7 @@ tags:
  - sea
 ---
 
-![September 2 1967 the principality of Sealand is declared](/assets/posts/from-pirate-radio-to-e-government/september-2-1967-the-principality-of-sealand-is-declared-136400115174903901-150901162848.jpg)
+![September 2 1967 the principality of Sealand is declared](/assets/posts/from-pirate-radio-to-e-government/september-2-1967-the-principality-of-sealand-is-declared.jpg)
 
 Picture: [bt.com](http://home.bt.com/news/world-news/september-2-1967-pirate-radio-boss-captures-north-sea-fort-and-declares-the-independent-principality-of-sealand-11364001281261)
 
