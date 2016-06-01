@@ -11,10 +11,6 @@ I believe all new Mac users have been asking the same question. This is just sup
 
 ## Free
 
-### [Gimp](https://www.gimp.org/)
-
-Good but too heavy for simple image editing. First thing I done after setup is changed it look to be [more like Photoshop](http://lifehacker.com/how-to-make-the-gimp-work-more-like-photoshop-1551318983)
-
 ### Built-in Preview app
 
 Can do `crop` and some other primitive operations. Can't place text.
@@ -22,6 +18,10 @@ Can do `crop` and some other primitive operations. Can't place text.
 ### [Acorn](http://flyingmeat.com/acorn/)
 
 Looks promising. Haven't tried it yet.
+
+### [Gimp](https://www.gimp.org/)
+
+Good, but too heavy for simple image editing. First thing I done after setup is changed it look to be [more like Photoshop](http://lifehacker.com/how-to-make-the-gimp-work-more-like-photoshop-1551318983).
 
 ### Other not usable options
 
