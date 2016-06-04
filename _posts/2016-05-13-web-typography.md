@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Web Typography
+tags:
+  - typography
+  - Houdini
 ---
 
 <div class=flex-video>
