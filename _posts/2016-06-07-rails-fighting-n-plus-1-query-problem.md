@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Rails: fighting N+1 query problem"
+tags:
+  - rails
+  - ruby
 ---
 
 This problem is well known and have been solved 1000 times before. But most articles on rails and `N+1` problem address mostly `includes` function. There are actually some more techniques (much simpler, but not obvious to fight this problem). I want to list them all.
@@ -21,7 +24,7 @@ class Worker < ActiveRecord::Base
 end
 ```
 
-And following decorator
+And following decorator:
 
 ```ruby
 class WorkerDecorator < Draper::Decorator
@@ -30,6 +33,8 @@ class WorkerDecorator < Draper::Decorator
   end
 end
 ```
+
+I'm using `draper` for this decorator. For other options see [my post on decorators](/ruby-decorators).
 
 And view
 
