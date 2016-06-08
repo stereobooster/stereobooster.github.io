@@ -25,6 +25,7 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 - http://nicewebtype.com/
 - http://universaltypography.com/demo/
 - http://webtypography.net/intro/
+- https://prowebtype.com/
 
 ## Vertical rhythm
 
@@ -70,8 +71,7 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
 ### Big text headers
 
-- http://fittextjs.com/
-- http://freqdec.github.io/slabText/
+[See my post on subject](/responsive-big-bold-text)
 
 ### Vertically centering text
 
@@ -92,3 +92,6 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
 - https://coolors.co/app
 
+## Fonts
+
+- https://github.com/adobe-fonts
