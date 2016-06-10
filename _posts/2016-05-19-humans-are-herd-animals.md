@@ -4,6 +4,7 @@ title: Humans are herd animals
 tags:
   - psychology
   - ecology
+  - herd behavior
 ---
 
 > Herd behavior describes how individuals in a group can act collectively without centralized direction. The term can refer to the behavior of animals in herds, packs, bird flocks, fish schools and so on, as well as the behavior of **humans** in demonstrations, riots and general strikes, sporting events, religious gatherings, episodes of mob violence and **everyday decision-making, judgment and opinion-forming**.
