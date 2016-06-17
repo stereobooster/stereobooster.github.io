@@ -10,6 +10,7 @@ There are existing solutions for creating responsive big bold text. Most reliabl
 
 ### JS
 
+- [big-ideas-text](https://github.com/kennethormandy/big-ideas-text). **No jQuery!**
 - [fitText](https://github.com/davatron5000/FitText.js/blob/master/jquery.fittext.js) (32 sloc). Use this plugin on your fluid or responsive layout to achieve scalable headlines that fill the width of a parent element.
 - [TextTailor](https://github.com/jpntex/TextTailor.js/blob/master/jquery.texttailor.js) (165 sloc). Responsive text to fill the height of the parent element or ellipse it when it doesn't fit.
 - [slabText](https://github.com/freqdec/slabText/blob/master/js/jquery.slabtext.js) (207 sloc). jQuery plugin for producing big, bold & responsive headlines. Implementation of [slabtype alogorithm](http://erikloyer.com/index.php/blog/the_slabtype_algorithm_part_2_initial_calculations/)
