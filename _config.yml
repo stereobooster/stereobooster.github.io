@@ -38,11 +38,11 @@ theme:
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: >
-   Collection of my ideas and thoughts. Think of it like a place where each idea get its own URL.
+   Collection of my ideas and thoughts. Think of it like a place where each idea gets its own URL.
 
   # Header and footer text
   header_text: >
-   <p>Collection of my ideas and thoughts. Think of it like a place where each idea get its own URL.</p>
+   <p>Collection of my ideas and thoughts. Think of it like a place where each idea gets its own URL.</p>
   header_text_feature_image:
   footer_text:
 
