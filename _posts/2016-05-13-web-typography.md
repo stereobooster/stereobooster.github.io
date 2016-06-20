@@ -31,6 +31,10 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
  - http://matejlatin.github.io/Gutenberg/
  - http://devinhunt.github.io/typebase.css/
+ - http://compass-style.org/reference/compass/typography/vertical_rhythm/
+ - http://zellwk.com/blog/web-typography-broken/
+ - http://alistapart.com/article/settingtypeontheweb
+ - http://www.gridlover.net/try
 
 
 ## Font size ratio
