@@ -61,3 +61,55 @@
     border-bottom: 1px solid $body-font-color;
   }
 }
+
+h1, h2, h3 {
+  font-family: $font-family-serif;
+}
+
+.attention-grabber {
+  border-left: 0;
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 3.2px;
+
+  p {
+    font-size: $h2-font-size - $h2-font-reduction;
+    line-height: $header-line-height;
+    color: $body-font-color;
+    font-family: $font-family-serif;
+  }
+
+  cite {
+    color: $body-font-color;
+    font-style: normal;
+    font-size: $base-font-size;
+  }
+
+  a {
+    color: $body-font-color;
+  }
+}
+
+@media #{$medium-up} {
+  .attention-grabber {
+    p {
+      font-size: $h2-font-size;
+    }
+  }
+}
+
+
+.attention-grabber.small {
+  p {
+    font-size: $h3-font-size - $h3-font-reduction;
+  }
+}
+
+@media #{$medium-up} {
+  .attention-grabber.small {
+    p {
+      font-size: $h3-font-size;
+    }
+  }
+}
+

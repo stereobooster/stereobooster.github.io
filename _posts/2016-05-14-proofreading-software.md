@@ -14,7 +14,9 @@ proselint file/path.md
 
 While software can be helpful, please do not forget about good old books. Classic book on the subject is [The Elements of Style by William Strunk, Jr.](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm). **TODO:** republish using gitbook.
 
-**TODO** test
+
+
+**TODO:** test.
 
 ```
 write-good file/path.md
@@ -92,6 +94,14 @@ Written in **JavaScript**.
 
 Written in **JavaScript**.
 
+### Typogruby
+
+[Typogruby](http://avdgaag.github.io/typogruby/) improve your web typography with a simple Ruby gem
+
+### Truty
+
+[Truty](https://github.com/mkj-is/Truty) a simple string converter, which aims to fix all the typography imperfections of the plain text.
+
 ### Other links
 
 - https://github.com/typograf/links
@@ -146,4 +156,5 @@ See also [comparison of typography checkers](http://www.typograf.ru/flog/)
 
 - http://nlp-compromise.github.io/website/ see "Text Parsing" section
 - http://www.chrisumbel.com/article/node_js_natural_language_nlp
+- https://wit.ai/
 

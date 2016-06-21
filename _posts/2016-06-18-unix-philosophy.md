@@ -3,9 +3,13 @@ layout: post
 title: Unix philosophy
 ---
 
-> This is the Unix philosophy: **Write programs that do one thing and do it well. Write programs to work together. Write programs to handle** text streams, because that is a **universal interface.**
->
->[Richard M. Stallman. The GNU Manifesto.](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)
+<blockquote class="attention-grabber small">
+    <p>This is the Unix philosophy: <strong>Write programs that do one thing and do it well. Write programs to work together. Write programs to handle</strong> text streams, because that is a <strong>universal interface.</strong></p>
+    <footer>
+        <cite><a href="http://www.catb.org/esr/writings/taoup/html/ch01s06.html">Richard M. Stallman. The GNU Manifesto.</a></cite>
+    </footer>
+</blockquote>
+
 
 This principle can be applied for software development in general, not just applications for Unix, but for frameworks, libraries, components. I would rephrase it:
 
@@ -14,7 +18,6 @@ This principle can be applied for software development in general, not just appl
 - **Write components that communicate using most universal interface.**
 
 It reminds me of [composition over inheritance principle](/composition-over-inheritance).
-
 
 ## Ecosystem
 This approach leads to creation of standalone components which in turn form ecosystem.
