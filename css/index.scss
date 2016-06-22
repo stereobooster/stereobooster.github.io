@@ -66,7 +66,7 @@ h1, h2, h3 {
   font-family: $font-family-serif;
 }
 
-.attention-grabber {
+blockquote.attention-grabber {
   border-left: 0;
   padding-left: 0;
   padding-top: 0;
@@ -85,21 +85,20 @@ h1, h2, h3 {
     font-size: $base-font-size;
   }
 
-  a {
+  cite a, a {
     color: $body-font-color;
   }
 }
 
 @media #{$medium-up} {
-  .attention-grabber {
+  blockquote.attention-grabber {
     p {
       font-size: $h2-font-size;
     }
   }
 }
 
-
-.attention-grabber.small {
+blockquote.attention-grabber.small {
   p {
     font-size: $h3-font-size - $h3-font-reduction;
   }
