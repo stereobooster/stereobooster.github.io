@@ -9,8 +9,54 @@
 └──────┘│ ────┘
  └──────┘
 
+
+░▒▓█▄▀ ■
+
+
+
+┏━━━━━━━━━━━━━━┓
+┃ ⊗⊖⊘          ┃
+┠──────────────┨
+┃▓▓▓▓▓▓▓▓      ┃
+┃▓▓▓▓▓▓▓▓      ┃
+┗━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━┓
+┃ http://      ┃
+┠──────────────┨
+┃▓▓▓▓▓▓▓▓      ┃
+┃▓▓▓▓▓▓▓▓      ┃
+┗━━━━━━━━━━━━━━┛
+
+╔═╦═╗
+║ ║ ║
+╠═╬═╣
+╟─╫─╢
+╚═╩═╝
+
+┌─┬┐  ╔═╦╗  ╓─╥╖  ╒═╤╕
+│ ││  ║ ║║  ║ ║║  │ ││
+├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
+└─┴┘  ╚═╩╝  ╙─╨╜  ╘═╧╛
+┌───────────────────┐
+│  ╔═══╗ Some Text  │▒
+│  ╚═╦═╝ in the box │▒
+╞═╤══╩══╤═══════════╡▒
+│ ├──┬──┤           │▒
+│ └──┴──┘           │▒
+└───────────────────┘▒
+ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+
+➝ ➞ →
+
 ```
 
+http://htmlarrows.com/punctuation/
+http://www.fileformat.info/info/unicode/block/geometric_shapes/list.htm
+
+
+http://www.theasciicode.com.ar/extended-ascii-code/black-square-ascii-code-254.html
 https://en.wikipedia.org/wiki/Box-drawing_character
 https://en.wikipedia.org/wiki/ASCII_art
 http://asciiflow.com/

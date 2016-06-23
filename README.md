@@ -26,15 +26,24 @@ bundle exec mdl file/path.md
 
 ## POSTS
 
+- Do I use word "ecology" right? http://blog.oup.com/2012/05/its-ecology-not-environmental-science/
 - stereobooster logo
 - typography awseome list (golden ratio - column - glvrd poster)
-- open source science (hub, sageMath, kickstarter app for DNA, spectrometry)
--
-
-
+- https://www.youtube.com/watch?v=u9M3pKsrcc8#t=636
+- reformat http://c2.com/cgi/wiki?ProgrammingParadigm (xray, es6)
+- http://www.martinfowler.com/bliki/WhatIsaBliki.html
+- meme generator
+- https://www.youtube.com/watch?v=6oxTMUTOz0w + map of wars and causes
+- http://www.goodreads.com/quotes/681-the-future-is-already-here-it-s-just-not-evenly
+http://quoteinvestigator.com/2012/01/24/future-has-arrived/
+- autoformat markdown to columns
+- inspiring ideas: RoR (CoC), Elm (Hard to Do errors, Semantic versioning forced, readable error messages, compilation minifies requirements of tests), Lisp (zero syntax, map/reduce, flat map?), Ruby (DSL, no properties, everything is function), SmallTalk (Everything is an object, comunicate via messages), Haskell (monad), erlang (Actors, immutable variables, pattern matching),
+http://exploringdata.github.io/vis/programming-languages-influence-network/
+http://c2.com/cgi/wiki?ProgrammingParadigm
 
 ## TODO:
-
+- Add smart tags {{ site.data.tags[tag].icon }}, add [fa-icons](http://fontawesome.io/get-started/), add links for tags
+- http://blog.typekit.com/2012/08/02/source-sans-pro/
 - how to make `aspell` to memorize ignored words across sesions?
 - implement excerpt feature http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/
 - some kind of app/script/editor extension which will highlight, gather all TODOs, because I'm embedding them in posts
