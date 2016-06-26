@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Dealing with big CSS codebase
+tags:
+  - css
 ---
 
 ![](/assets/posts/dealing-with-big-css-codebase/griffin.gif)
