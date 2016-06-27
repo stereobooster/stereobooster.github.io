@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Programming mantras
+tags:
+  - programming
 ---
 
 What is programming mantra? This is small advice or [rule of thumb](https://en.wikipedia.org/wiki/Rule_of_thumb) that should help write better code. Lets see some examples
