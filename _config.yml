@@ -19,6 +19,8 @@ github:
 # description - A short description (e.g., A blog dedicated to reviewing cat gifs)
 # url - The full URL to your site. Note: site.github.url will be used by default.
 # author - global author information (see below)
+author:
+  twitter: stereobooster
 twitter:
   username: stereobooster
 # facebook:
