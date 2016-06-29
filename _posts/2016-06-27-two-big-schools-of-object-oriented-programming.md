@@ -7,6 +7,9 @@ image:
 tags:
   - programming
 ---
+
+**TL;DR** There is no one "canonical" definition of OOP. There are **at least two** of them. From **my POV** there are two big definitions, which deserves separate names. I named them after biggest advocates. Those two definition have some differences and some commonalities.
+
 I was about to get into another argue on OOP on the internet. I decided to do some research on the subject. I found [more than one definition of OOP](http://c2.com/cgi/wiki?DefinitionsForOo). Some of the definitions are variations of the same "tune", some are useless. On my opinion there are two main directions of thoughts in this domain, which from two schools of OOP. School as in [school of thought](https://en.wikipedia.org/wiki/School_of_thought). The same way as there were [philosophical schools in ancient Greece](https://en.wikipedia.org/wiki/Ancient_Greek_philosophy). The same way there are two schools of OOP:
 
  - Alan Kay's school or message focused
