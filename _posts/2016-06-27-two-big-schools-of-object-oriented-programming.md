@@ -163,6 +163,8 @@ From my POV [Jonathan Rees definition](http://paulgraham.com/reesoo.html) is jus
 
 For me this view gives some insight, but same time opens even more questions.
 
+ - [On Understanding Types, Data Abstraction, and Polymorphism](http://lucacardelli.name/Papers/OnUnderstanding.A4.pdf), 1985, [Luca Cardelli](http://lucacardelli.name/), [Peter Wegner](http://cs.brown.edu/~pw/)
+ - [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
  - Inheritance as a mechanism for code reuse. What are different types of code reuse out there: class-based, prototype-based, duck typing?
  - Types vs Classes. See also: [Type Theory](http://c2.com/cgi/wiki?TypeTheory), [
 Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/), [On Understanding Types](http://c2.com/cgi/wiki?OnUnderstandingTypes)
