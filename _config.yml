@@ -93,8 +93,8 @@ theme:
 permalink: :title
 
 # PAGINATION
-paginate: 30
-paginate_path: "blog/page/:num"
+paginate: 20
+paginate_path: "/page/:num"
 
 excerpt_separator: "\n\n\n"
 
