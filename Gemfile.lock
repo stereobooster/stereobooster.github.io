@@ -22,6 +22,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-compose (0.4.1)
       jekyll (>= 2.5.0)
+    jekyll-feed (0.5.1)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
@@ -61,6 +62,7 @@ DEPENDENCIES
   hawkins
   jekyll
   jekyll-compose
+  jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
   mdl

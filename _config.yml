@@ -123,6 +123,7 @@ highlighter: pygments
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-feed
   # - jekyll-typogrify
   # - jekyll-compose
   # - jekyll-mentions
