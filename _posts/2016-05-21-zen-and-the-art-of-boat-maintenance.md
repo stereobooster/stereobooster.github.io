@@ -16,3 +16,4 @@ See also:
 - [Free Boats](http://www.boneyardboats.com/Free_Boats/)
 - [Kon-Tiki expedition](https://en.wikipedia.org/wiki/Kon-Tiki_expedition)
 - [Alain Bombard](https://en.wikipedia.org/wiki/Alain_Bombard), [Hannes Lindemann](https://en.wikipedia.org/wiki/Hannes_Lindemann)
+- [How I Learned To Stop Worrying, and Build a Custom Camper Van](http://syntheti.cc/van-build/)

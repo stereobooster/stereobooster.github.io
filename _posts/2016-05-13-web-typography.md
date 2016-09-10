@@ -42,6 +42,10 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
  - http://type-scale.com/
  - http://www.pearsonified.com/2011/12/golden-ratio-typography.php
 
+## CSS, standards specific things
+
+ - http://stateofwebtype.com/
+
 
 ## Fonts combination
 
