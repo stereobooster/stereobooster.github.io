@@ -15,8 +15,6 @@ title: functional javascript
 - https://www.goodreads.com/shelf/show/functional-programming
 - https://news.ycombinator.com/item?id=6852619
 - http://alexott.net/en/fp/books/
-- http://learnyouahaskell.com/introduction
-- http://elm-by-example.org/toc.html
 
 ## Concepts
 
@@ -26,7 +24,7 @@ title: functional javascript
 - Map/reduce + stream (Functors)
 - Monads (Haskel)
 - Concurency, actors and messages (Erlang)
-- Currying (Monad I suppose)
+- Currying
 - Tail call optimization
 - Lazy evaluation
 - Immutable data strucutres
@@ -39,7 +37,6 @@ title: functional javascript
 
 - ["Turning the database inside out" by Martin Kleppmann](http://www.youtube.com/watch?v=fU9hR3kiOK0)
 - [Consensus](https://www.consul.io/docs/internals/consensus.html) protocol: [Raft](http://thesecretlivesofdata.com/raft/).
-- [Streams](https://github.com/substack/stream-handbook),
 - https://rpominov.github.io/kefir/#,
 - http://highlandjs.org/#,
 - https://medium.com/@yelouafi/promises-fp-beautiful-streams-6f0235c5b179#.jp131i9t6,
@@ -51,17 +48,6 @@ title: functional javascript
 
 
 ## To sort
-
-https://github.com/matthiasak/universal-utils
-https://github.com/fantasyland/fantasy-land
-https://github.com/hemanth/functional-programming-jargon
-http://www.crockford.com/javascript/scheme.html
-https://github.com/douglascrockford/monad
-
-http://riemann.io/index.html
-http://jamesknelson.com/six-essential-javascript-libraries/
-http://danieltao.com/lazy.js/docs/
-
 
 http://drupalmotion.com/article/debounce-and-throttle-visual-explanation
 https://lodash.com/docs#debounce
