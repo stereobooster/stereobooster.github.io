@@ -93,7 +93,7 @@ Jargon from the functional programming world in simple terms!
 |----------------------|-------------|--------------|-------|-----|---------|------------|--------------------|-----------------------|----|
 | ES6                  | Dynamic     | No           | -     | -   | -       | -          | -                  | ?                     | Yes|
 | ClojureScript        | Dynamic     | Yes          | -     | -   | -       | ?          | ?                  | ?                     | Yes|
-| Flow                 | Static      | No           | No    | Yes | ?       | Yes        | 117 [flow-typed](https://github.com/flowtype/flow-typed/tree/master/definitions/npm)                   | ?                     | Yes|
+| Flow                 | Static      | No           | No    | Yes | ?       | Yes        | 117 [flow-typed](https://github.com/flowtype/flow-typed/tree/master/definitions/npm), [flowInterfaces](https://github.com/marudor/flowInterfaces) | ?                     | Yes|
 | TypeScript           | Static      | No           | No    | Yes | ?       | Yes        | 2,073 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) | ?                     | Yes|
 | OCaml (BuckleScript) | Static      | ? No         | Yes   | Yes | ?       | Yes        | ~4 + ? [bindings](https://github.com/bloomberg/bucklescript-addons/tree/master/bindings) | Yes                   | Yes|
 | F# (Fable)           | Static      | No           | ? Yes | Yes | ?       | ?          | ?                                         | ?                     | ? |
