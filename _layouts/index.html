@@ -5,11 +5,11 @@ layout: default
 <div class="hero">
   <div class="row">
     <div class="columns medium-4 large-4 large-offset-4 medium-offset-4">
-      <!-- <h1>{{ site.theme.title }}</h1> -->
+      <!-- <h1>{{ site.theme_vars.title }}</h1> -->
       <h1>STERE<br>OBOOS<br>TERBL<br>OG</h1>
     </div>
     <div class="columns medium-4 large-4 text">
-      {{ site.theme.header_text }}
+      {{ site.theme_vars.header_text }}
     </div>
   </div>
 </div>
@@ -46,12 +46,12 @@ layout: default
     <div class="pagination">
       {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-        &larr;{{ site.theme.str_prev }}
+        &larr;{{ site.theme_vars.str_prev }}
       </a>
       {% endif %}
       {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-        {{ site.theme.str_next }}&rarr;
+        {{ site.theme_vars.str_next }}&rarr;
       </a>
       {% endif %}
     </div>

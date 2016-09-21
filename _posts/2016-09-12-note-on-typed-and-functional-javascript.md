@@ -15,6 +15,9 @@ With `TCO` and `fat arrow` (`=>`) ES6 become closer to  LISP (in some aspects) e
 
 Side note: there exist variations of LISP with static type system, but historically LISP was dynamically typed.
 
+
+
+
 ### Dynamic type system plus immutable data structures: Clojure
 
 Firs of all there is [ClojureScript](http://clojurescript.org/) which will transpile Clojure (with some restrictions) to JS.

@@ -34,7 +34,7 @@ twitter:
 # google_site_verification for verifying ownership via Google webmaster tools
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_vars:
   # Meta
   title: "stereobooster blog"
   avatar: avatar.png
