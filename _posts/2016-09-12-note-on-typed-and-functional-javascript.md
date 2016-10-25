@@ -9,7 +9,7 @@ title: Note on typed and functional JavaScript
 
 Given the fact that [ES6](http://exploringjs.com/es6/) has dynamic type system, higher order functions (e.g. functions which can accept and/or return other function), [tail call optimisation](http://benignbemine.github.io/2015/07/19/es6-tail-calls/) (`TCO`), brings ES6 to level of LISP (Scheme).
 
-[First time this idea was suggested by Douglas Crockford](http://javascript.crockford.com/little.html). But Crockford suggested it when there were no `TCO` in standard.
+[First time this idea was suggested by Douglas Crockford](http://javascript.crockford.com/little.html). But Crockford suggested it when there was no `TCO` in standard.
 
 With `TCO` and `fat arrow` (`=>`) ES6 become closer to  LISP (in some aspects) e.g. you can take [SICP](http://sarabander.github.io/sicp/) and implement all examples using ES6. Yay!
 
@@ -20,11 +20,11 @@ Side note: there exist variations of LISP with static type system, but historica
 
 ### Dynamic type system plus immutable data structures: Clojure
 
-Firs of all there is [ClojureScript](http://clojurescript.org/) which will transpile Clojure (with some restrictions) to JS.
+First of all there is [ClojureScript](http://clojurescript.org/) which will transpile Clojure (with some restrictions) to JS.
 
 Or you can use ES6 together with immutable [(functional) data structure](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf), for example [mori](https://github.com/swannodette/mori) (which come from ClojureScript) or [Immutable.js](https://facebook.github.io/immutable-js/).
 
-Side note: using ES6 with immutable data structures is not the same as using ClojureScript, it is some kind of equivalent.
+Side note: using ES6 with immutable data structures is not the same thing as using ClojureScript, it is some kind of equivalent.
 
 ## Static type system: JavaScript with types
 
