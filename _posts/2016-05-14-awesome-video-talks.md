@@ -41,6 +41,10 @@ Make the Back-End Team Jealous: Elm in Production by Richard Feldman
 
 [Crockford on JavaScript](https://www.youtube.com/watch?v=JxAXlJEmNMg&list=PL7664379246A246CB)
 
+ - https://www.infoq.com/presentations/Simple-Made-Easy
+ - https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey
+ - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/
+
 ## Ideas
 
 - https://github.com/reactjs/redux#thanks
