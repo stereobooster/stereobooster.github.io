@@ -94,9 +94,13 @@ The most well known is Turing Machine (TM). Introduced by Alan Turing in 1936 in
 | [Minsky](http://amturing.acm.org/award_winners/minsky_7440781.cfm) | 1967      | [Computation: Finite and Infinite Machines](http://www.cba.mit.edu/events/03.11.ASE/docs/Minsky.pdf) |
 | [Knuth](http://amturing.acm.org/award_winners/knuth_1013846.cfm) | 1968–2011 | The Art of Computer Programming, [MMIX](http://mmix.cs.hm.edu/) |
 | Hartmanis                                   | 1971      | &mdash;[Computational complexity of random access stored program machines](http://link.springer.com/article/10.1007/BF01694180) |
-| Cook & Reckhow                              | 1972      | &mdash;[Time-bounded random access machines](http://dl.acm.org/citation.cfm?doid=800152.804898), [Time Bounded Random Access Machines](https://www.cs.toronto.edu/~sacook/homepage/rams.pdf) |
+| Cook & Reckhow                              | 1972      | [Time Bounded Random Access Machines](https://www.cs.toronto.edu/~sacook/homepage/rams.pdf) |
 | Carl Hewitt                                 | 1973      | Actor model |
+| Kahn                                        | 1974      | Kahn Process Network |
+| Hoare                                       | 1978      | Communicating Sequential Processes, Process Calculi |
 | Arnold Schönhage                            | 1979      | &mdash;[Storage Modification Machines](http://dl.acm.org/citation.cfm?id=720017) |
+| Milner                                      | 1980      | Calculus of Communicating Systems, Process Calculi |
+| Lee                                         | 1986      | Synchronous Dataflow |
 | van Emde Boas                               | 1989      | [Machine models and simulations](https://www.illc.uva.nl/Research/Publications/Reports/CT-1989-02.text.pdf) |
 | Boolos & Burgess; Boolos, Burgess & Jeffrey | <nobr>1970–2002</nobr> | [Computability and Logic](http://hykelhosni.weebly.com/uploads/1/4/8/6/14867962/c-a-l-ch1-4.pdf) |
 
@@ -126,7 +130,9 @@ Other:
 
 See also:
 
+- [Turing's Ideas and Models of Computation](http://www.cs.montana.edu/~elser/turing%20papers/Turing's%20Ideas%20and%20Models%20of%20Computation.pdf)
 - [The Origins of the Turing Thesis Myth](http://www.engr.uconn.edu/~dqg/papers/myth.pdf)
+- [Turing’s Influence on Programming](http://www.easychair.org/publications/download/Turing_s_Influence_on_Programming)
 
 ### Survey of the sequential and parallel models of computation
 
@@ -143,6 +149,10 @@ Unproved claim: bounded nondteremenism corresponds to system where next step is 
 Some authors claims that output device would make difference for TM. I believe Turing meant tape to be used as memory and output device. When he build working prototype of computer he used Williams tubes as memory and as output device.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ecIWPzGEbFc?t=19m35s&rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+[Understanding the Stack](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/stack.html)
 
 ## Comparison of models of computation
 
