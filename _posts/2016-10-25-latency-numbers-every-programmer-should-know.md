@@ -8,6 +8,8 @@ title: Latency Numbers Every Programmer Should Know
 
 [Intercative version](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
 
+![](/assets/posts/latency-numbers-every-programmer-should-know/cpu-operations.png)
+
 
 ```
 Latency Comparison Numbers
