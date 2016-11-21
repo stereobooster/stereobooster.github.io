@@ -97,7 +97,7 @@ The most well known is Turing Machine (TM). Introduced by Alan Turing in 1936 in
 | Cook & Reckhow                              | 1972      | [Time Bounded Random Access Machines](https://www.cs.toronto.edu/~sacook/homepage/rams.pdf) |
 | Carl Hewitt                                 | 1973      | Actor model |
 | Kahn                                        | 1974      | Kahn Process Network |
-| Hoare                                       | 1978      | Communicating Sequential Processes, Process Calculi |
+| Hoare                                       | 1978      | [Communicating Sequential Processes](http://www.usingcsp.com/cspbook.pdf), Process Calculi |
 | Arnold Schönhage                            | 1979      | &mdash;[Storage Modification Machines](http://dl.acm.org/citation.cfm?id=720017) |
 | Milner                                      | 1980      | Calculus of Communicating Systems, Process Calculi |
 | Lee                                         | 1986      | Synchronous Dataflow |
