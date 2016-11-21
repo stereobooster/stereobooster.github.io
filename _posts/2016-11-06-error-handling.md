@@ -103,6 +103,9 @@ Cons:
 
 I call it my billion-dollar mistake. It was the invention of the null reference in 1965. At that time, I was designing the first comprehensive type system for references in an object oriented language (ALGOL W). My goal was to ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler. But I couldn't resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.
 
+
+Note: do not confuse with void pointer.
+
 See:
 
  - [Nullable types](https://en.wikipedia.org/wiki/Nullable_type)
@@ -112,6 +115,7 @@ See:
 
 See:
 
+ - [Unit type](https://en.wikipedia.org/wiki/Unit_type#In_programming_languages)
  - [Null object](https://rosettacode.org/wiki/Null_object)
  - [Undefined values](https://rosettacode.org/wiki/Undefined_values)
  - [Null object pattern](https://en.wikipedia.org/wiki/Null_Object_pattern)
