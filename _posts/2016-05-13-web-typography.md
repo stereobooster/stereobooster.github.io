@@ -20,6 +20,9 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 ## Reading
 **TODO**: implement 3-column "galxy-layout" page. See also [creating your awesome list](https://github.com/sindresorhus/awesome/blob/master/create-list.md), https://deanhume.github.io/typography/
 
+- http://practicaltypography.com/straight-and-curly-quotes.html
+- https://www.typewolf.com/cheatsheet
+- http://smartquotesforsmartpeople.com/
 - https://www.awesomeweb.com/blog/perfecting-web-typography
 - http://alistapart.com/article/more-meaningful-typography
 - http://nicewebtype.com/
