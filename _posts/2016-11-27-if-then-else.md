@@ -179,7 +179,7 @@ if (a == 0) {
 ## Boolean algebra
 
 ```js
-// need dynamic type system or functions return values compatible with boolean
+// need dynamic type system or function return values compatible with boolean
 const ifThenElse = (test, thenAction, elseAction) => {
   test && thenAction() || !test && elseAction()
 }
@@ -187,7 +187,7 @@ const ifThenElse = (test, thenAction, elseAction) => {
 ifThenElse(true, ()=>console.log(1), ()=>console.log(2))
 // prints 1
 
-ifThenElse(true, ()=>console.log(1), ()=>console.log(2))
+ifThenElse(false, ()=>console.log(1), ()=>console.log(2))
 // prints 2
 ```
 

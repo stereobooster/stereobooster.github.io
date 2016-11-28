@@ -7,7 +7,9 @@ title: Models of Computation
 
 According to Leslie Lamport computation is what computational device (or human - my addition) does. It doesn't matter if it is "useful" calculation or simple bits flipping. More formal way to define computation is to view it as sequence of state mutations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BDPHfRuAFnU" frameborder="0" allowfullscreen></iframe>
+<div class=flex-video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BDPHfRuAFnU" frameborder="0" allowfullscreen></iframe>
+</div>
 
 There is other wide used way to think of computation: functions. Mathematical function maps some input value to some output value. But mathematical function doesn't care how you get from input to output, but for computation it is big deal. Otherwise there would be no bubblesort, quicksort or other sort algorithms. Computable mathematical function is expected to have output value e.g. halt, while computation can be infinite, think of clock or OS.
 
