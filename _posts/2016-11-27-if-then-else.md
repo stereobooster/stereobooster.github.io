@@ -24,10 +24,10 @@ const b = 1 // you can use `()=>1` to get more functional attitude
 const c = 2
 
 let a = True
-a(b)(c) // 1
+a(b)(c) // returns 1
 
 a = False
-a(b)(c) // 2
+a(b)(c) // returns 2
 ```
 
 ### Bonus points: Lisp if
@@ -45,8 +45,8 @@ Note: [Lisp corresponds to an untyped, call-by-value lambda calculus extended wi
 ```js
 const ifThenElse = (test, thenAction, elseAction) => test(thenAction)(elseAction)
 
-ifThenElse(True, 1, 2) // 1
-ifThenElse(False, 1, 2) // 2
+ifThenElse(True, 1, 2)  // returns 1
+ifThenElse(False, 1, 2) // returns 2
 ```
 
 ## OOP way e.g. SmallTalk/Ruby
@@ -76,8 +76,14 @@ class FalseClass
   end
 end
 
-# if a; puts b; else puts c
+# returns value
+if a
+  b
+else
+  c
+end
 
+# prints value
 (a).
   if_true  { puts b }.
   if_false { puts c }
@@ -109,10 +115,10 @@ const b = ()=>{ console.log(1) }
 const c = ()=>{ console.log(2) }
 
 let a = True
-a.ifTrue(b).ifFalse(c) // 1
+a.ifTrue(b).ifFalse(c) // prints 1
 
 a = False
-a.ifTrue(b).ifFalse(c) // 2
+a.ifTrue(b).ifFalse(c) // prints 2
 ```
 
 
@@ -167,6 +173,22 @@ if (a == 0) {
 } else {
   console.log("a is not zero")
 }
+// prints result
+```
+
+## Boolean algebra
+
+```js
+// need dynamic type system or functions return values compatible with boolean
+const ifThenElse = (test, thenAction, elseAction) => {
+  test && thenAction() || !test && elseAction()
+}
+
+ifThenElse(true, ()=>console.log(1), ()=>console.log(2))
+// prints 1
+
+ifThenElse(true, ()=>console.log(1), ()=>console.log(2))
+// prints 2
 ```
 
 ## Monadic way e.g. Haskell
