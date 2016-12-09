@@ -12,3 +12,8 @@ Empathy, cooperation, fairness and reciprocity &mdash; caring about the well-bei
 This is argument against idea that morality comes from religion. Morality can be result of evolution for better survival of social groups.
 
 See also: [Moral machine](http://moralmachine.mit.edu/).
+
+
+<div class=flex-video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YMnEpOsGH4o?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

@@ -124,7 +124,7 @@ a.ifTrue(b).ifFalse(c) // prints 2
 
 
 
-## Procedural way
+## Imperative way
 
 ```c
 #include <stdio.h>
