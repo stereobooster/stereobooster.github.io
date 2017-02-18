@@ -13,6 +13,8 @@ title: Naming is hard
 
 - [Long Names Are Long](http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/)
 - [A Guide to Naming Variables](https://a-nickels-worth.blogspot.ru/2016/04/a-guide-to-naming-variables.html)
+- [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/)
+- [What science says about naming](http://www.felienne.com/archives/5452)
 
 ## The 7 stages of naming
 

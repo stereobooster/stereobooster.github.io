@@ -28,3 +28,5 @@ Your aim as a developer write good code, not follow mantras. Mantras suppose to 
         <cite><a href="http://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction">Sandi Metz</a></cite>
     </footer>
 </blockquote>
+
+See also: [Too DRY - The Grep Test](http://jamie-wong.com/2013/07/12/grep-test/).

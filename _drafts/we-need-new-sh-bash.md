@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We need new sh (bash)
+title: We need new shell
 ---
 
 # What is sh and why does it matter?
@@ -19,7 +19,7 @@ title: We need new sh (bash)
  - FreeBSD's `sh` is a descendant of the original UNIX `Bourne shell`
  - [Busybox](https://en.wikipedia.org/wiki/BusyBox), which is usually run during the Linux system boot time as part of [initramfs](https://en.wikipedia.org/wiki/Initramfs). It uses the `ash`
  - `zsh` one of most advanced shells. [Compatible with `sh`](http://zsh.sourceforge.net/FAQ/zshfaq02.html)
- - [`fishshell`](http://fishshell.com/). Also cool shell, though not compatible with `sh`
+ - [`fishshell`](http://fishshell.com/). Also cool shell, though not compatible with `sh`. Started in 2005 and written in C++.
 
 ## History
 
@@ -61,7 +61,14 @@ In addition to supporting backward-compatibility for scripting, Bash has incorpo
 
 Bash has continued to evolve, with new features, support for regular expressions (similar to Perl), and associative arrays. Although some of these features may not be present in other scripting languages, it's possible to write scripts that are compatible with other languages.
 
+## New implementations
 **Unsorted**
 
 https://github.com/dthree/cash/
+https://github.com/uutils/coreutils
+https://natelandau.com/boilerplate-shell-script-template/
+http://bash3boilerplate.sh/
+- [oh](https://github.com/michaelmacinnis/oh) built with Go. Where oh diverges from traditional Unix shells is in its programming language features. At its core, oh is a heavily modified dialect of the Scheme programming language complete with first-class continuations and proper tail recursion. Written in Go
+- [pru](https://github.com/grosser/pru) Pipeable Ruby - forget about grep / sed / awk / wc ... use pure, readable Ruby!
+
 

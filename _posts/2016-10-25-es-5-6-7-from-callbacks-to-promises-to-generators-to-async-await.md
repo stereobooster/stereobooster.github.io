@@ -12,3 +12,5 @@ Do not know who made this, but this is awesome example of pictograms for program
 
 ![](/assets/posts/es-5-6-7-from-callbacks-to-promises-to-generators-to-async-await/futures-01.png)
 ![](/assets/posts/es-5-6-7-from-callbacks-to-promises-to-generators-to-async-await/futures-02.png)
+
+[Visual vocabularly](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)

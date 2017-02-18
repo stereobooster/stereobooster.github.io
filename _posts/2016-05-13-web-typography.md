@@ -18,9 +18,10 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
 
 ## Reading
-**TODO**: implement 3-column "galxy-layout" page. See also [creating your awesome list](https://github.com/sindresorhus/awesome/blob/master/create-list.md), https://deanhume.github.io/typography/
+**TODO**: implement 3-column "galaxy-layout" page. See also [creating your awesome list](https://github.com/sindresorhus/awesome/blob/master/create-list.md), https://deanhume.github.io/typography/
 
-- http://practicaltypography.com/straight-and-curly-quotes.html
+- http://practicaltypography.com/
+- http://typographica.org/category/typography-books/
 - https://www.typewolf.com/cheatsheet
 - http://smartquotesforsmartpeople.com/
 - https://www.awesomeweb.com/blog/perfecting-web-typography
@@ -29,6 +30,14 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 - http://universaltypography.com/demo/
 - http://webtypography.net/intro/
 - https://prowebtype.com/
+
+## Themes
+
+- https://edwardtufte.github.io/tufte-css/
+- http://typeplate.com/
+- https://ello.co/dredmorbius/post/xw7jtbjacgocr3doflytha
+- http://alistapart.com/article/a-simpler-page
+- http://craigmod.com/bibliotype/
 
 ## Vertical rhythm
 
@@ -44,11 +53,11 @@ Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which 
 
  - http://type-scale.com/
  - http://www.pearsonified.com/2011/12/golden-ratio-typography.php
+ - https://twitter.com/notwaldorf/status/801138269719171073 FOUT
 
 ## CSS, standards specific things
 
  - http://stateofwebtype.com/
-
 
 ## Fonts combination
 

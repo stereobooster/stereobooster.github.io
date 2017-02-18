@@ -35,9 +35,6 @@ http://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
 http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html
 http://www.catb.org/esr/writings/taoup/html/ch01s06.html
 
- - [fishshell](http://fishshell.com/) Indeed it's friendly in my opinion, also extremely colorful. Started in 2005 and written in C++.
- - [oh](https://github.com/michaelmacinnis/oh) built with Go. Where oh diverges from traditional Unix shells is in its programming language features. At its core, oh is a heavily modified dialect of the Scheme programming language complete with first-class continuations and proper tail recursion. Written in Go
- - [pru](https://github.com/grosser/pru) Pipeable Ruby - forget about grep / sed / awk / wc ... use pure, readable Ruby!
 
 
 ```
@@ -65,3 +62,8 @@ https://google.github.io/styleguide/shell.xml
 - [nq: queue utilities](https://github.com/chneukirchen/nq) - Unix command line queue utility
 - https://news.ycombinator.com/item?id=9496854
 - [shon](https://github.com/nanopack/shon) A simple tool to convert json or yaml into a shell-compliant data structure.
+
+
+
+
+

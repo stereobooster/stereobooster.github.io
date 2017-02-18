@@ -14,7 +14,7 @@ layout: post
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Writing)
 
-Not everyone who can write is writer. Not everyone who owns camera is photographer. If I would by dantist chair, it won't make me dantist.
+Not everyone who can write is writer. Not everyone who owns camera is photographer. If I would buy dantist chair, it won't make me dantist.
 
 
 ## Books
