@@ -64,6 +64,8 @@ Bash has continued to evolve, with new features, support for regular expressions
 ## New implementations
 **Unsorted**
 
+http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/
+
 https://github.com/dthree/cash/
 https://github.com/uutils/coreutils
 https://natelandau.com/boilerplate-shell-script-template/

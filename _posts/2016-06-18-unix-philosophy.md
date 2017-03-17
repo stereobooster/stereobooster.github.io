@@ -103,3 +103,7 @@ One of the best examples of Unix philosophy applied is [gulp](http://gulpjs.com/
     <a href="http://www.programcreek.com/2011/09/what-is-the-difference-between-a-java-library-and-a-framework/">Image source</a>
   </div>
 </div>
+
+## Critics
+
+https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/

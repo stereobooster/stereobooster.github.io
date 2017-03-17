@@ -20,4 +20,4 @@ title: master remote shell
  - http://shellhaters.org/
  - https://github.com/jlevy/the-art-of-command-line
  - https://github.com/alebcay/awesome-shell
-
+ - https://github.com/Russell91/sshrc
