@@ -14,9 +14,10 @@ proselint file/path.md
 
 While software can be helpful, please do not forget about good old books. Classic book on the subject is [The Elements of Style by William Strunk, Jr.](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm). **TODO:** republish using gitbook.
 
+Recent finding: [grammarly](https://app.grammarly.com/).
 
 
-**TODO:** test.
+**TODO:** test those:
 
 ```
 write-good file/path.md
