@@ -12,7 +12,6 @@ title: js transpilers
   - [awesome typescript](https://github.com/dzharii/awesome-typescript)
   - [Roadmap](https://github.com/Microsoft/TypeScript/wiki/Roadmap)
  - [flow](http://flowtype.org/)
- - [immutable-js](https://github.com/facebook/immutable-js)
  - [babel-plugin-typecheck](https://github.com/codemix/babel-plugin-typecheck). This is a Babel plugin for static and runtime type checking using flow type annotations.
 
 ### Advantage of true functional languages
