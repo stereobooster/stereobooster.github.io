@@ -17,6 +17,7 @@ Use some kind of monitoring solution to track server perfomance. You can choose 
 
 Use the index, Luke. Use Skylight or DBs slow queries log to detect a problem.
 
+
 ### Generally slow
 
 Use profiler to detect why is your application is slow. Use [stackprof](https://github.com/tmm1/stackprof) in `:wall` mode or [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) with `?pp=flamegraph`.
