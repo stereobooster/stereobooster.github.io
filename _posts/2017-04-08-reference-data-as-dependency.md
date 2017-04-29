@@ -89,3 +89,7 @@ Examples:
 ## Open data
 
 Last, but not least question: is where to get the data. [Open data](https://okfn.org/opendata/) is the nice initiative which addresses this problem. See also: [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+See also:
+
+ - http://www.datasciencetoolkit.org/

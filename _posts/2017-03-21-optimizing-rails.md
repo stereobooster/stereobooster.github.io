@@ -168,8 +168,17 @@ gem "faster_path"
 gem "ox"
 gem "hamlit"
 gem "mini_mime"
+gem "fast_gettext"
 ```
 
 ## Super fast ruby
 
-[Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/)
+[Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
+
+[Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby).
+
+### Native Extensions
+
+- https://github.com/malept/thermite
+- http://usehelix.com/
+- https://github.com/phoffer/crystalized_ruby

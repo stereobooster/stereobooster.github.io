@@ -12,6 +12,8 @@ tags:
 
 Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which describes problems of modern web typography and how it is relates with classical book printing mastery.
 
+https://www.youtube.com/watch?v=TGHbkTGVqoU
+
 **TODO**: list books mentioned in video.
 
 **Disclaimer**: unfinished post / collection of links / side notes
