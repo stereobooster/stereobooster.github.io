@@ -53,3 +53,10 @@ Design Patterns Elements of Reusable Object-Oriented Software.
 Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 
 [Sny86] Alan Snyder. Encapsulation and inheritance in object-oriented languages. In Object-Oriented Programming Systems, Languages, and Applications Conference Proceedings, pages 38-45, Portland, OR, November 1986. ACM Press.
+
+## 	Objects are a poor man's closures
+
+- http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg03277.html
+- http://okmij.org/ftp/Scheme/oop-in-fp.txt
+- ftp://ftp.cs.indiana.edu/pub/scheme-repository/doc/pubs/swob.txt
+- https://arxiv.org/pdf/cs/0509027.pdf
