@@ -171,11 +171,16 @@ gem "mini_mime"
 gem "fast_gettext"
 ```
 
+- [Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby).
+- [Bootsnap](https://github.com/Shopify/bootsnap), [yomikomu](https://github.com/ko1/yomikomu)
+- [posix-spawn](https://github.com/rtomayko/posix-spawn)
+- [nakayoshi_fork](https://github.com/ko1/nakayoshi_fork)
+- [oobgc](http://tmm1.net/ruby21-oobgc/)
+- [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby)
+
 ## Super fast ruby
 
 [Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
-
-[Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby).
 
 ### Native Extensions
 
