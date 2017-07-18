@@ -182,6 +182,12 @@ gem "fast_gettext"
 
 [Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
 
+- https://github.com/pmq20/ruby-compiler
+- https://dev.to/ben/chris-seaton-making-ruby-fast
+- http://chrisseaton.com/rubytruffle/
+- https://github.com/rubyomr-preview/rubyomr-preview
+- http://www.atdot.net/~ko1/activities/2016_railsconf_pub.pdf
+
 ### Native Extensions
 
 - https://github.com/malept/thermite

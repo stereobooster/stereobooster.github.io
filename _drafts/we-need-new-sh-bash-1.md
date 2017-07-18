@@ -5,6 +5,8 @@ title: bash
 
 ###Unsorted links
 
+https://arcan-fe.com/2017/07/12/the-dawn-of-a-new-command-line-interface/
+
 http://www.computerhistory.org/timeline/
 
 https://github.com/mcandre/linters#sh--shell--bash

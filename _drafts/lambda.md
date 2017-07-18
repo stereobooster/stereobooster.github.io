@@ -1,14 +1,4 @@
 
-const Zero   = f => z => z
-const Succ   = n => f => z => f (n (f) (z))
-
-
-const Pred   = n => f => x => n (g => h => h (g (f))) (c => x) (Id)
-const Minus  = m => n => n (Pred) (m)
-const IsZero = n => n (f => False) (True)
-const LessEq = m => n => IsZero (Minus (m) (n))
-const Greatr = m => n => Not (LessEq (m) (n))
-
 // const Nil    = x => c => x
 // const Cons   = h => t => x => c => c (h) (t)
 
@@ -20,6 +10,15 @@ const Greatr = m => n => Not (LessEq (m) (n))
 // const LessEqJs = m => n => { console.log('l', m, n); return m <= n ? True : False }
 // const GreatrJs = m => n => { console.log('g', m, n); return m >  n ? True : False }
 
+
+const Zero   = f => z => z
+const Succ   = n => f => z => f (n (f) (z))
+
+const Pred   = n => f => x => n (g => h => h (g (f))) (c => x) (Id)
+const Minus  = m => n => n (Pred) (m)
+const IsZero = n => n (f => False) (True)
+const LessEq = m => n => IsZero (Minus (m) (n))
+const Greatr = m => n => Not (LessEq (m) (n))
 
 
 const Id     = x => x
