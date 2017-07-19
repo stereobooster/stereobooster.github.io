@@ -6,7 +6,7 @@ tags:
   - Houdini
 ---
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe width=560 height=315 src=https://www.youtube.com/embed/MI7Xz-_ddu4 frameborder=0 allowfullscreen></iframe>
 </div>
 

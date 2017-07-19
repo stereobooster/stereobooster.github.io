@@ -7,7 +7,7 @@ tags:
   - open source
 ---
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe src="https://embed-ssl.ted.com/talks/marcin_jakubowski.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -27,7 +27,7 @@ It would be great if someone actually wrote computer game that simulates real-li
 
 ## Open source houses
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Mlt6kaNjoeI" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -44,7 +44,7 @@ It would be great if someone actually wrote computer game that simulates real-li
 
 ## Open source water filter
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe src="https://player.vimeo.com/video/120599681?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 

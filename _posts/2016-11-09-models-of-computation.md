@@ -7,7 +7,7 @@ title: Models of Computation
 
 According to Leslie Lamport computation is what computational device (or human - my addition) does. It doesn't matter if it is "useful" calculation or simple bits flipping. More formal way to define computation is to view it as sequence of state mutations.
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/BDPHfRuAFnU" frameborder="0" allowfullscreen></iframe>
 </div>
 

@@ -31,7 +31,7 @@ Ecosystem with big number of components have problems: workforce dispersion, dif
     <p>The more component trying to do the more chance there will be components with overlapping functionality. It leads to dispersion of workforce of open-source contributors. So it means different people implementing same thing again and again, porting functionality from one library to another. Instead they could spend time improving one project or many small projects without overlapping functionality.</p>
   </div>
   <div class="columns medium-4 large-4">
-    <div class=flex-video>
+    <div class="flex-video">
       <iframe src="//giphy.com/embed/W1UPMUpL2vHfG" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
     <h3>Difficulty of choice</h3>

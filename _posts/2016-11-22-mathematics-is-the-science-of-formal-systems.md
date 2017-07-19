@@ -10,11 +10,11 @@ title: Mathematics is the science of formal systems
     </footer>
 </blockquote>
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/AmySxYHqQCQ?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
-<div class=flex-video>
+<div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XFDM1ip5HdU?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>

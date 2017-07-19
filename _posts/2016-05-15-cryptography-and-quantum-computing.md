@@ -8,13 +8,13 @@ tags:
 <div class="row">
   <div class="columns medium-6 large-6">
     <p>Public key cryptography - Diffie-Hellman Key Exchange</p>
-    <div class=flex-video>
+    <div class="flex-video">
       <iframe width="420" height="315" src="https://www.youtube.com/embed/YEBfamv-_do" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="columns medium-6 large-6">
     <p>Erik Lucero's Quantum Computing Breakthrough</p>
-    <div class=flex-video>
+    <div class="flex-video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Yl3o236gdp8" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
