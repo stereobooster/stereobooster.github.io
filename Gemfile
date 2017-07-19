@@ -2,8 +2,9 @@ source "https://rubygems.org"
 
 gem 'jekyll'
 gem 'mdl'
-gem 'redcarpet'
-gem 'pygments.rb'
+gem 'rouge'
+# gem 'redcarpet'
+# gem 'pygments.rb'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'

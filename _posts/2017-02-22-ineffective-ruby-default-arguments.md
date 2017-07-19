@@ -14,7 +14,7 @@ v1 = ObjectSpace.count_objects
 10000.times{ test_hash }
 v2 = ObjectSpace.count_objects
 v2[:T_HASH] - v1[:T_HASH]
-=> 10015 
+=> 10015
 exit
 ```
 
@@ -39,7 +39,7 @@ v1 = ObjectSpace.count_objects
 10000.times{ test_hash2 }
 v2 = ObjectSpace.count_objects
 v2[:T_HASH] - v1[:T_HASH]
-=> 19 
+=> 19
 exit
 ```
 
