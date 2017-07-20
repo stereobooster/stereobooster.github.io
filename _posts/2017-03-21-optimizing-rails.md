@@ -142,8 +142,8 @@ end
 
 ### Other tools
 
- - http://rbkit.codemancers.com/
- - https://github.com/dpogue/rails_server_timings
+ - <http://rbkit.codemancers.com/>
+ - <https://github.com/dpogue/rails_server_timings>
 
 ## Benchmark
 
@@ -171,8 +171,8 @@ gem "mini_mime"
 gem "fast_gettext"
 ```
 
+- [micro_mime](https://github.com/stereobooster/micro_mime)
 - [Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby).
-- [Bootsnap](https://github.com/Shopify/bootsnap), [yomikomu](https://github.com/ko1/yomikomu)
 - [posix-spawn](https://github.com/rtomayko/posix-spawn)
 - [nakayoshi_fork](https://github.com/ko1/nakayoshi_fork)
 - [oobgc](http://tmm1.net/ruby21-oobgc/)
@@ -180,20 +180,20 @@ gem "fast_gettext"
 
 ### Faster boot
 
-- <https://github.com/Shopify/bootsnap>
-- <https://github.com/ko1/yomikomu>
-- <https://github.com/pmq20/ruby-compiler>
+- [Bootsnap](https://github.com/Shopify/bootsnap)
+- [yomikomu](https://github.com/ko1/yomikomu)
+- [ruby-compiler](https://github.com/pmq20/ruby-compiler)
 
 ## Super fast ruby
 
 [Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
 
-- https://dev.to/ben/chris-seaton-making-ruby-fast
-- http://chrisseaton.com/rubytruffle/
-- https://github.com/rubyomr-preview/rubyomr-preview
+- <https://dev.to/ben/chris-seaton-making-ruby-fast>
+- [rubytruffle](http://chrisseaton.com/rubytruffle/)
+- [rubyomr](https://github.com/rubyomr-preview/rubyomr-preview)
 
 ### Native Extensions
 
-- https://github.com/malept/thermite
-- http://usehelix.com/
-- https://github.com/phoffer/crystalized_ruby
+- [thermite](https://github.com/malept/thermite)
+- [helix](http://usehelix.com/)
+- [crystalized_ruby](https://github.com/phoffer/crystalized_ruby)
