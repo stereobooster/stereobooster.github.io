@@ -178,15 +178,19 @@ gem "fast_gettext"
 - [oobgc](http://tmm1.net/ruby21-oobgc/)
 - [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby)
 
+### Faster boot
+
+- <https://github.com/Shopify/bootsnap>
+- <https://github.com/ko1/yomikomu>
+- <https://github.com/pmq20/ruby-compiler>
+
 ## Super fast ruby
 
 [Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
 
-- https://github.com/pmq20/ruby-compiler
 - https://dev.to/ben/chris-seaton-making-ruby-fast
 - http://chrisseaton.com/rubytruffle/
 - https://github.com/rubyomr-preview/rubyomr-preview
-- http://www.atdot.net/~ko1/activities/2016_railsconf_pub.pdf
 
 ### Native Extensions
 
