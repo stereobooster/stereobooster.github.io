@@ -191,6 +191,7 @@ gem "fast_gettext"
 - <https://dev.to/ben/chris-seaton-making-ruby-fast>
 - [rubytruffle](http://chrisseaton.com/rubytruffle/)
 - [rubyomr](https://github.com/rubyomr-preview/rubyomr-preview)
+- [rujit](https://github.com/imasahiro/rujit)
 
 ### Native Extensions
 
