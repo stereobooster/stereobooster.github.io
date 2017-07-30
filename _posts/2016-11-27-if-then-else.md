@@ -32,7 +32,7 @@ a(b)(c) // returns 2
 
 ### Bonus points: Lisp if
 
-```lisp
+```
 (if true-or-false-test
     action-to-carry-out-if-the-test-returns-true
   action-to-carry-out-if-the-test-returns-false)

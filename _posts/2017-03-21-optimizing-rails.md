@@ -172,7 +172,7 @@ gem "fast_gettext"
 ```
 
 - [micro_mime](https://github.com/stereobooster/micro_mime)
-- [Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby).
+- [Writing Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
 - [posix-spawn](https://github.com/rtomayko/posix-spawn)
 - [nakayoshi_fork](https://github.com/ko1/nakayoshi_fork)
 - [oobgc](http://tmm1.net/ruby21-oobgc/)
