@@ -186,12 +186,13 @@ gem "fast_gettext"
 
 ## Super fast ruby
 
-[Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/).
+[Projects That Are Making Blazing Fast Ruby a Reality, 2016](https://www.sitepoint.com/projects-that-are-making-blazing-fast-ruby-a-reality/). [Polyglot From The Very Old To The Very New](https://eventil.com/presentations/1Gskd8).
 
 - <https://dev.to/ben/chris-seaton-making-ruby-fast>
 - [rubytruffle](http://chrisseaton.com/rubytruffle/)
 - [rubyomr](https://github.com/rubyomr-preview/rubyomr-preview)
 - [rujit](https://github.com/imasahiro/rujit)
+- [mjit](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch)
 
 ### Native Extensions
 
