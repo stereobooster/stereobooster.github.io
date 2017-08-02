@@ -7,7 +7,7 @@ tags:
 ---
 
 <div class="flex-video">
-  <iframe width=560 height=315 src=https://www.youtube.com/embed/MI7Xz-_ddu4 frameborder=0 allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MI7Xz-_ddu4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Take a look at [this video](https://www.youtube.com/watch?v=MI7Xz-_ddu4), which describes problems of modern web typography and how it is relates with classical book printing mastery.
@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=TGHbkTGVqoU
 ## Reading
 **TODO**: implement 3-column "galaxy-layout" page. See also [creating your awesome list](https://github.com/sindresorhus/awesome/blob/master/create-list.md), https://deanhume.github.io/typography/
 
+- http://typographyhandbook.com/
 - http://practicaltypography.com/
 - http://typographica.org/category/typography-books/
 - https://www.typewolf.com/cheatsheet
@@ -30,12 +31,13 @@ https://www.youtube.com/watch?v=TGHbkTGVqoU
 - http://alistapart.com/article/more-meaningful-typography
 - http://nicewebtype.com/
 - http://universaltypography.com/demo/
-- http://webtypography.net/intro/
+- http://webtypography.net/toc/
 - https://prowebtype.com/
 
 ## Themes
 
 - https://edwardtufte.github.io/tufte-css/
+- http://typespiration.com/
 - http://typeplate.com/
 - https://ello.co/dredmorbius/post/xw7jtbjacgocr3doflytha
 - http://alistapart.com/article/a-simpler-page
@@ -75,6 +77,12 @@ https://www.youtube.com/watch?v=TGHbkTGVqoU
  - [typograf.ru](http://typograf.ru/)
  - [SmartyPants](https://daringfireball.net/projects/smartypants/)
 
+## Web fonts
+
+- http://kennethormandy.com/journal/normalize-opentype-css/
+- https://css-tricks.com/fout-foit-foft/
+- https://github.com/michaeltaranto/basekick
+- https://meowni.ca/font-style-matcher/
 
 ## Letter specific things
 
