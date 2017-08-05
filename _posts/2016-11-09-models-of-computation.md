@@ -161,3 +161,5 @@ Some authors claims that output device would make difference for TM. I believe T
 - [A Framework for Comparing Models of Computation](https://inst.eecs.berkeley.edu/~ee249/fa07/discussions/TSM.pdf)
 - [How to Compare the Power of Computational Models](http://www.cs.tau.ac.il/~nachum/papers/ComputationalPower.pdf)
 - [The memory models that underlie programming languages](http://canonical.org/~kragen/memory-models/#addtoc_1)
+- [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+
