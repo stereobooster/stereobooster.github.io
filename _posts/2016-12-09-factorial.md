@@ -91,6 +91,22 @@ const fact = n => factIter(1, 1, n)
 //Infinity
 ```
 
+### Recursive, but not recursive implementation
+
+Formally `fact` function is not recursive at the moment of declaration, but instead we rely on closures. Original idea is from [Strachey paper](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf).
+
+```js
+let g
+const fact = n => n < 2 ? 1 : n * g(n-1)
+g = fact
+```
+
+Obviously it is still recursive by nature, if we expand last line:
+
+```js
+g = n => n < 2 ? 1 : n * g(n-1)
+```
+
 ### Fixed-point combinator implementation
 
 Most known fixed-point combinator is Y combinator, but it will not work in JS, because of order of evaluation. So we will use Z combinator.
@@ -109,3 +125,7 @@ const fact    = Z(factgen)
 ### Effective implementation
 
 Despite the fact it is often used as example of recursive function, it is very ineffective way to calculate it. Check out [this link](http://www.luschny.de/math/factorial/conclusions.html) for effective implementations.
+
+### Real numbers?
+
+Use [Euler’s gamma function](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4247832/)
