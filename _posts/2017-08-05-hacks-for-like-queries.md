@@ -15,6 +15,6 @@ If you can detect the beginning of a search term you can reduce `LIKE "%Abc%"` t
 
 ### Trigram index
 
-[PostgreSQL supports trigram indexes](https://about.gitlab.com/2016/03/18/fast-search-using-postgresql-trigram-indexes/). With trigram indexes you can search for `LIKE "%abc%"`, trade off is a huge size of the index.
+[PostgreSQL supports trigram indexes](https://about.gitlab.com/2016/03/18/fast-search-using-postgresql-trigram-indexes/). With trigram indexes you can search for `LIKE "%abc%"` effectively, trade off is a huge size of the index.
 
 [Hack for MySQL](https://stackoverflow.com/a/3320810/1190041).
