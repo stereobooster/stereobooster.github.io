@@ -67,7 +67,7 @@ See also: [On Understanding Types, Data Abstraction, and Polymorphism](http://lu
 
 Architectural or hardware model is used for specific language implementation and most notably for the high performance machine (and algorithms optimized for those machine) design purpose.
 
-Example: Von Neumann architecture, [pointer machine](https://courses.csail.mit.edu/6.851/spring07/scribe/lec12.pdf) which used in [6.851: Advanced Data Structures](http://courses.csail.mit.edu/6.851/spring12/lectures/L01.html) course, MMIX processor used in TAOCP.
+Example: Von Neumann architecture, [pointer machine](https://courses.csail.mit.edu/6.851/spring07/scribe/lec12.pdf) which used in [6.851: Advanced Data Structures](http://courses.csail.mit.edu/6.851/spring12/lectures/L01.html) course, MIX (later [MMIX](http://mmix.cs.hm.edu/)) processor used in TAOCP.
 
 ## What are known models of computation out there?
 

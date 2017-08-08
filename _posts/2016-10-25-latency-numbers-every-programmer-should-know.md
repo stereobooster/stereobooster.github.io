@@ -7,6 +7,8 @@ title: Latency Numbers Every Programmer Should Know
 
 [Intercative version](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
 
+
+
 [Gallery of Processor Cache Effects](http://igoro.com/archive/gallery-of-processor-cache-effects/)
 
 ![](/assets/posts/latency-numbers-every-programmer-should-know/cpu-operations.png)
