@@ -129,3 +129,7 @@ Despite the fact it is often used as example of recursive function, it is very i
 ### Real numbers?
 
 Use [Euler’s gamma function](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4247832/)
+
+### Haskell variations
+
+See "[The Evolution of a Haskell Programmer](http://willamette.edu/~fruehr/haskell/evolution.html)".
