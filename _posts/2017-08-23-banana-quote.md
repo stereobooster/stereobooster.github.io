@@ -21,7 +21,7 @@ photo credit: [daily mail](http://www.dailymail.co.uk/news/article-2006531/Unlik
 >
 > &mdash; Carl Hewitt (et al.) author of Actor model. Source: [A Universal Modular ACTOR Formalism for Artificial Intelligence](http://worrydream.com/refs/Hewitt-ActorModel.pdf)
 
-Actor model is one of the basic ideas behind Erlang [citation required]. SmallTalk is first OOP language, (or second if you count Simula). Alan Kay coined term OOP. I saw paper where Carl Hewitt explicitly stated that Actor model was inspired by SmallTalk, but I can not find it at the moment.
+The actor model is one of the basic ideas behind Erlang [citation required]. SmallTalk is first OOP language, (or second if you count Simula). Alan Kay coined term OOP. I saw a paper where Carl Hewitt explicitly stated that Actor model was inspired by SmallTalk, but I can not find it at the moment.
 
 See also:
 - [The Early History of Smalltalk, Alan C. Kay](http://worrydream.com/EarlyHistoryOfSmalltalk/)
