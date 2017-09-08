@@ -37,10 +37,15 @@ Table based on [A Comparison of Four Algorithms Textbooks](https://porgionesanke
 - [Algorithms by  Robert Sedgewick and Kevin Wayne](https://www.coursera.org/learn/algorithms-part1), Princeton University
 - [Awesome courses](https://github.com/prakhar1989/awesome-courses)
 - [CS 161 - Design and Analysis of Algorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms), Stanford University
+- [Master Algorithmic Programming Techniques](https://www.coursera.org/specializations/data-structures-algorithms?utm_medium=email&utm_source=marketing&utm_campaign=n1kSsIfYEeeIJ0_WfrpVtA)
 
 ## Online resources
 
 - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- [Quantum Algorithm Zoo](http://math.nist.gov/quantum/zoo/)
+- [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
+- http://www3.cs.stonybrook.edu/~algorith/implement/handbook/implement.shtml
+- https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/WEBSITE/INDEX.HTM
 
 ## Computational Complexity
 

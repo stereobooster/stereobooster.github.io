@@ -98,6 +98,7 @@ To read:
 
  - [That’s Not a Memory Leak, It’s Bloat, 2009](https://blog.engineyard.com/2009/thats-not-a-memory-leak-its-bloat)
  - [Demystifying the Ruby GC, 2013](https://samsaffron.com/archive/2013/11/22/demystifying-the-ruby-gc)
+ - [Ruby 2.1: RGenGC, 2013](http://tmm1.net/ruby21-rgengc/)
  - [Watching and Understanding the Ruby 2.1 Garbage Collector at Work, 2014](https://thorstenball.com/blog/2014/03/12/watching-understanding-ruby-2.1-garbage-collector/)
  - [Ruby GC Tuning Parameters, 2014](https://helabs.com/artigos/2014/12/19/ruby-gc-tuning-parameters/)
  - [Incremental Garbage Collection in Ruby 2.2, 2015](https://engineering.heroku.com/blogs/2015-02-04-incremental-gc/)
@@ -142,8 +143,17 @@ end
 
 ### Other tools
 
+ - <https://github.com/basecamp/trashed>
  - <http://rbkit.codemancers.com/>
  - <https://github.com/dpogue/rails_server_timings>
+ - <https://github.com/airbnb/hammerspace>
+
+### About memory
+
+ - <https://brandur.org/ruby-memory>
+ - <https://github.com/benoittgt/understand_ruby_memory>
+ - <http://eng.rightscale.com/2015/09/16/how-to-debug-ruby-memory-issues.html>
+ - <https://docs.newrelic.com/docs/agents/ruby-agent/features/garbage-collection#gc_setup>
 
 ## Benchmark
 
