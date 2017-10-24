@@ -5,14 +5,14 @@ title: "Proofreading software: Spell, Grammar, Style Checkers"
 
 **TL;DR**
 
-The most useful so far are `aspell` and `proselint`. Both can tolerate markdown.
+The most useful so far are `aspell` and [proselint](http://proselint.com/). Both can tolerate markdown.
 
 ```
 aspell check file/path.md
 proselint file/path.md
 ```
 
-While software can be helpful, please do not forget about good old books. Classic book on the subject is [The Elements of Style by William Strunk, Jr.](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm). **TODO:** republish using gitbook.
+While software can be helpful, please do not forget about good old books. A classic book on the subject is [The Elements of Style by William Strunk, Jr.](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm). **TODO:** republish using gitbook.
 
 Recent finding: [grammarly](https://app.grammarly.com/).
 
@@ -59,7 +59,7 @@ Written in **JavaScript**. Has command line interface.
 ### Alex
 
 [Alex](http://alexjs.com/) Catch insensitive, inconsiderate writing.
-Whether your own or someone else’s writing, alex helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing.
+Whether your own or someone else’s writing, Alex helps you find gender favoring, polarising, race-related, religion inconsiderate, or another unequal phrasing.
 
 Written in **JavaScript**.
 
@@ -68,6 +68,10 @@ Written in **JavaScript**.
 [write good](https://github.com/btford/write-good) is naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
 
 Written in **JavaScript**. Has command line interface.
+
+### gingerice
+
+= https://github.com/subosito/gingerice
 
 ## Typography auto-correctors
 
@@ -112,7 +116,7 @@ Written in **JavaScript**.
 
 ### yaspeller: CLI for Yandex.Speller API
 
-[yaspeller](https://github.com/hcodes/yaspeller) search typos in the text, files and websites. Use Yandex.Speller API.
+[yaspeller](https://github.com/hcodes/yaspeller) search typos in the text, files, and websites. Use Yandex.Speller API.
 
 Written in **JavaScript**. Has command line interface.
 
@@ -126,7 +130,7 @@ Written in **JavaScript**. Has command line interface.
 
 ### Glavred
 
-[Glavred](https://glvrd.ru/) - style checker for **Russian** texts. Good for advertisements, news, articles, sites, instructions, letters and commercial offers. Bad for poetry, literature.
+[Glavred](https://glvrd.ru/) - style checker for **Russian** texts. Good for advertisements, news, articles, sites, instructions, letters, and commercial offers. Bad for poetry, literature.
 
 ### typograf
 
